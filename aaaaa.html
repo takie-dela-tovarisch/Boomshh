@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<style media="screen">
+body {
+  background-color: black;
+margin: 0 auto;}
+  .main img {
+    width: 102%;
+  margin-left: 0px;
+  margin-top: 53px;
+  }
+  .main {
+    z-index: 100;
+    display: flex;
+  }
+  .parallax {
+  position: fixed;
+  left: 20px;
+  right: 0px;
+  z-index: 1;}
+  .kitchen {
+    position: relative;
+    background-color: rgba(135, 104, 225, 1);
+    width: 809px;
+    height: 564px;
+    margin-left: 91px;
+    margin-top: 445px;
+  }
+  @font-face {
+      font-family: FuturaFuturisBlackC;
+      src: url(fonts/futurafuturisblackc.ttf);}
+  @font-face {
+      font-family: FTX45;
+      src: url(fonts/FTX45.otf);
+  }
+  .kitchen h1 {
+   font-family: FuturaFuturisBlackC;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   color: #FFCD00;
+   margin-left: 24px;
+   padding-top: 20px;
+  }
+  .kitchen p {
+    font-family: FTX45;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+color: #FFCD00;
+margin-left: 24px;
+margin-top: -60px;
+  }
+  .bowl {
+    position: relative;
+    margin-top: 1032px;
+    margin-left: 145px;
+  }
+  .bowl h1 {
+   font-family: FuturaFuturisBlackC;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   color: #FFCD00;
+   margin-left: 454px;
+   margin-top: -852px;
+  }
+  .bowl p {
+    width: 622px;
+    font-family: FTX45;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  color: #FFCD00;
+  margin-left: 454px;
+  margin-top: -51px;
+  line-height: 73px;
+  }
+  .blades {
+    position: relative;
+    margin-top: 1566px;
+    width: 1280px;
+    overflow: hidden;
+  }
+  .blade-right {
+    position: relative;
+  margin-left: -80px;
+    height: 696px;
+    width: 110.5px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .blade-right img {
+    position: absolute;
+    top: 0px;
+    animation: bladee 2s steps(1) infinite;
+  }
+  .blades2 {
+    position: relative;
+    width: 1280px;
+    margin-left: 1195px;
+    margin-top: -250px;
+  }
+  .blade-leftt {
+    position: relative;
+    height: 696px;
+    display: inline-block;
+    width: 110.5px;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+  .blade-leftt img {
+    position: absolute;
+    top: 0px;
+  animation: bladee 2s steps(1) infinite;
+  }
+  @keyframes bladee {
+    0% {top: 0px;}
+    10% {top:-67.5px;}
+    20% {top:-138px;}
+    30% {top:-206px;}
+    40% {top:-279px;}
+    50% {top:-347px;}
+    60% {top:-421px;}
+    70% {top:-486px;}
+    80% {top:-557px;}
+    90% {top:-626px;}
+    100% {top:-697px;}
+  }
+  .a {
+    position: absolute;
+  width: 58px;
+  background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+  height: 980px;
+  margin-top: 76px;
+  margin-left: 48%;
+  background-position: 0 0;
+  z-index: 2;
+  animation: ba 2.5s infinite;
+  background-size: 100% 100%;
+  }
+  .b {
+    position: absolute;
+    width: 380px;
+  background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
+    height: 58px;
+    margin-top: 998px;
+    margin-left: 52%;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    animation: be 6s infinite;
+    z-index: 2;
+  }
+  .c {
+    position: absolute;
+  width: 58px;
+  background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+  height: 360px;
+  margin-top: 1154px;
+  margin-left: 983px;
+  background-position: 0 0;
+  z-index: 1;
+  animation: ba 8s infinite;
+  background-size: 100% 100%;
+  }
+  * {
+    z-index: 10;
+  }
+  @keyframes ba {
+    0% {background-position: 0 0;}
+    100% {background-position: 0 1087px;}
+  }
+  @keyframes be {
+    0% {background-position: 0 0;}
+    100% {background-position: 374px 0px;}
+  }
+  .sort {
+    position: relative;
+  margin-top: 1430px;
+  padding-bottom: 200px;
+  }
+  .line1 {
+    position: relative;
+    width: 736px;
+    height: 38px;
+    background-color: #866AE1;
+    margin-left: 397px;
+  }
+  .line2 {
+    position: relative;
+    width: 431px;
+    height: 38px;
+    background-color: #866AE1;
+    margin-left: 702px;
+    margin-top: 56px;
+  }
+  .line3 {
+    position: relative;
+    width: 529px;
+    height: 38px;
+    background-color: #866AE1;
+    margin-left: 606px;
+    margin-top: 56px;
+  }
+  .endgame {
+    margin-top: 1300px;
+    display: flex;
+    position: relative;
+  }
+  .endgame img {
+  position: relative;
+  width: 100%;
+  }
+</style>
+
+
+  </body>
+  <div class="parallax">
+<img src="images/dots.svg" alt="">
+  </div>
+  <div class="a">
+
+  </div>
+  <div class="b">
+
+  </div>
+  <div class="c">
+
+  </div>
+<div class="main">
+<img src="images/upper.svg" alt="">
+<!-- <div class="lava">
+  <img src="images/lava.svg" alt="">
+</div> -->
+</div>
+<div class="kitchen">
+<h1>step 1</h1>
+<p>кухня</p>
+</div>
+
+<div class="bowl">
+<img src="images/vulkwhite.svg" alt="">
+<h1>step 2</h1>
+<p>cистема котлов внутри вулканов</p>
+</div>
+
+<div class="blades">
+<div class="blade-right">
+  <img src="images/jojo.svg" alt="">
+</div>
+
+<div class="blade-leftt">
+  <img src="images/jojo.svg" alt="">
+</div>
+</div>
+<div class="blades2">
+<div class="blade-right">
+  <img src="images/jojo.svg" alt="">
+</div>
+
+<div class="blade-leftt">
+  <img src="images/jojo.svg" alt="">
+</div>
+</div>
+
+<div class="sort">
+<div class="line1">
+</div>
+<div class="line2">
+</div>
+<div class="line3">
+</div>
+</div>
+
+<div class="endgame">
+
+<img src="images/bonap.svg" alt="">
+</div>
+
+</body>
+</html>

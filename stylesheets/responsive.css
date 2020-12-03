@@ -1,0 +1,10 @@
+
+@media all and (min-width: 1910px) {
+	.a {
+    width: 200px;
+    height: 2000px;}
+    .kitchen {
+      width: calc(100% - 40px);
+      margin-left: 200px;
+    }
+	}

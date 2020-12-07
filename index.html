@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="stylesheets/style.css">
     <title></title>
     <style media="screen">
@@ -26,7 +27,7 @@ display: block;
 opacity: .2;
 }
 .main img {
-  width: 102%;
+  width: 100%;
 margin-left: 0px;
 margin-top: 53px;
 }
@@ -40,8 +41,6 @@ position: fixed;
 left: 20px;
 right: 0px;
 z-index: 1;}
-/* left: 60px;
-top: 31px;} */
 
 .kitchen {
   position: relative;
@@ -76,11 +75,14 @@ color: #FFCD00;
 margin-left: 24px;
 margin-top: -60px;
    }
-
+.water {
+  display: none;
+  margin: 0px;
+}
 .bowl {
   position: relative;
   margin-top: 1032px;
-  margin-left: 145px;
+  margin-left: 0px;
 }
 .bowl h1 {
  font-family: FuturaFuturisBlackC;
@@ -114,12 +116,9 @@ margin-left: -80px;
   width: 110.5px;
   overflow: hidden;
   display: inline-block;
+  background-image: url(images/jojo.svg);
 }
-.blade-right img {
-  position: absolute;
-  top: 0px;
-  animation: bladee 2s steps(1) infinite;
-}
+
 .blade-leftt {
   position: relative;
   height: 696px;
@@ -182,7 +181,6 @@ animation: bladee 2s steps(1) infinite;
 width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 980px;
-/* display: flex; */
 margin-top: 76px;
 margin-left: 48%;
 background-position: 0 0;
@@ -247,27 +245,27 @@ margin-top: 1430px;
 padding-bottom: 200px;
 }
 .line1 {
-  position: relative;
+  position: absolute;
   width: 736px;
   height: 38px;
   background-color: #866AE1;
-  margin-left: 397px;
+  right: 148px;
 }
 .line2 {
-  position: relative;
+  position: absolute;
   width: 431px;
   height: 38px;
   background-color: #866AE1;
-  margin-left: 702px;
-  margin-top: 56px;
+  top: 93px;
+  right: 148px;
 }
 .line3 {
-  position: relative;
+  position: absolute;
   width: 529px;
   height: 38px;
   background-color: #866AE1;
-  margin-left: 606px;
-  margin-top: 56px;
+  right: 148px;
+  top: 186px;
 }
 .endgame {
   margin-top: 1300px;
@@ -277,33 +275,83 @@ padding-bottom: 200px;
 position: relative;
 width: 100%;
 }
+.phonemain {
+  display: none;
+}
+.phonebowl {
+  display: none;
+  margin: 0px;
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-body {
-  width: 320px;}
 .kitchen {
-  width: 50%;
-  height: 50%;
+  width: 215px;
+  height: 205px;
+  margin-left: 0px;
+  margin-top: 456px;
+  margin-left: 40px;
+}
+.kitchen h1 {
+  margin-left: 10px;
+  padding-top: 3px;
+  font-size: 30px;
+}
+.kitchen p {
+  font-size: 30px;
+  margin-top: -16px;
+  margin-left: 10px;
+}
+.main {
+  display: none;
 }
 .bowl {
-  margin: 0 auto;
+  margin-left: 0px;
+  margin-top: 548px;
 }
 .bowl img {
-  width: 40%;
-  height: 40%;
+  margin: 0 auto;
+  width: 100%;
+}
+.phonebowl {
+  margin: 0 auto;
+  margin-top: -315px;
+display: block;
+z-index: 100
+
+}
+.phonebowl img {
+  margin: 0 auto;
+  width: 100%;
+}
+.water {
+  display: block;
+  margin-top: 750px;
 }
 .bowl h1 {
-  margin: 0 auto;
+  margin-left: 21px;
+  margin-top: -320px;
   font-size: 30px;
   width: 300px;
 }
 .bowl p {
-  margin: 0 auto;
+  margin-left: 21px;
+  margin-top: -7px;
   font-size: 30px;
-  width: 300px;
+  width: 280px;
+  line-height: 28px;
 }
 .blades {
   width: 320px;
-  margin: 0 auto;
+  margin-top: 566px;
+}
+.blade-right {
+margin-left: 0px;
+  height: 277.14px;
+  width: 44px;
+}
+.blade-leftt {
+  height: 277.14px;
+  width: 44px;
+  margin-left: 20px;
 }
 .blades2 {
   width: 320px;
@@ -325,6 +373,11 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.phonemain {
+display: block;
+position: relative;
+padding-top: 30px;
+}
 }
 
     </style>
@@ -338,32 +391,40 @@ body {
         <img src="images/lava.svg" alt="">
       </div> -->
     </div>
-
-<section>
-  <div class="kitchen">
-  <h1>step 1</h1>
-  <p>кухня</p>
-  </div>
-</section>
-
-
-    <div class="bowl">
-      <img src="images/vulkwhite.svg" alt="">
-      <h1>step 2</h1>
-      <p>cистема котлов внутри вулканов</p>
+    <div class="phonemain">
+<img src="images/mainvul.svg" alt="">
     </div>
 
-    <div class="blades">
+  <!-- <div class="kitchen">
+  <h1>step 1</h1>
+  <p>кухня</p>
+  </div> -->
+
+
+    <!-- <div class="bowl">
+      <div class="water">
+        <img src="images/water.svg" alt="">
+      </div>
+      <div class="phonebowl">
+        <img src="images/two.svg" alt="">
+      </div>
+
+      <div class="deskbowl">
+        <img src="" alt="">
+      </div>
+      <h1>step 2</h1>
+      <p>cистема котлов внутри вулканов</p>
+    </div> -->
+
+    <!-- <div class="blades">
       <div class="blade-right">
-        <img src="images/jojo.svg" alt="">
       </div>
 
       <div class="blade-leftt">
-        <img src="images/jojo.svg" alt="">
       </div>
-    </div>
+    </div> -->
 
-    <div class="blades2">
+    <!-- <div class="blades2">
       <div class="bladee-right">
         <img src="images/jojo.svg" alt="">
       </div>
@@ -371,7 +432,7 @@ body {
       <div class="bladee-leftt">
         <img src="images/jojo.svg" alt="">
       </div>
-    </div>
+    </div> -->
 
     <div class="sort">
       <div class="line1">
@@ -382,9 +443,9 @@ body {
       </div>
     </div>
 
-    <div class="endgame">
+    <!-- <div class="endgame">
 
     <img src="images/bonap.svg" alt="">
-    </div>
+    </div> -->
 </body>
 </html>

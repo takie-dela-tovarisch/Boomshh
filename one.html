@@ -4,13 +4,76 @@
     <meta charset="utf-8">
     <title></title>
     <style media="screen">
+    .blades {
+      display: inline-block;
+    }
+    .bladestwo {
+      display: inline-block;
+    }
     .blade-right {
       position: relative;
       height: 696px;
-      width: 110.5px;
+      width: 30px;
       display: inline-block;
       background-image: url(images/jojo.svg);
-      background-position: bottom 50px right 100px;;
+      background-position: top 0px right 0px;
+      animation: bladee 2s steps(1) infinite;
+    }
+    .blade-leftt {
+      position: relative;
+      height: 696px;
+      display: inline-block;
+      width: 110.5px;
+      overflow: hidden;
+      margin-left: 20px;
+      background-image: url(images/jojo.svg);
+      background-position: top 0px right 0px;
+      animation: bladee 2s steps(1) infinite;
+    }
+    @keyframes bladee {
+      0% {background-position: right 0px top 0px;}
+      10% {background-position: right 0px top -67.5px;}
+      20% {background-position: right 0px top -138px;}
+      30% {background-position: right 0px top -206px;}
+      40% {background-position: right 0px top -279px;}
+      50% {background-position: right 0px top -347px;}
+      60% {background-position: right 0px top -421px;}
+      70% {background-position: right 0px top -486px;}
+      80% {background-position: right 0px top -557px;}
+      90% {background-position: right 0px top -626px;}
+      100% {background-position: right 0px top -697px;}
+    }
+    .bladee-leftt {
+      position: relative;
+      height: 696px;
+      display: inline-block;
+      width: 110.5px;
+      background-image: url(images/jojo.svg);
+      background-position: top 0px right 0px;
+      animation: bladee 2s steps(1) infinite;
+    }
+    .bladee-right {
+      position: relative;
+      height: 696px;
+      width: 30px;
+      margin-left: 20px;
+      display: inline-block;
+      background-image: url(images/jojo.svg);
+      background-position: top 0px right 30px;
+      animation: bladeetwo 2s steps(1) infinite;
+    }
+    @keyframes bladeetwo {
+      0% {background-position: right 30px top 0px;}
+      10% {background-position: right 30px top -67.5px;}
+      20% {background-position: right 30px top -138px;}
+      30% {background-position: right 30px top -206px;}
+      40% {background-position: right 30px top -279px;}
+      50% {background-position: right 30px top -347px;}
+      60% {background-position: right 30px top -421px;}
+      70% {background-position: right 30px top -486px;}
+      80% {background-position: right 30px top -557px;}
+      90% {background-position: right 30px top -626px;}
+      100% {background-position: right 30px top -697px;}
     }
     </style>
   </head>
@@ -21,6 +84,13 @@
 
       <div class="blade-leftt">
       </div>
+    </div>
+    <div class="bladestwo">
+      <div class="bladee-leftt">
+      </div>
+      <div class="bladee-right">
+      </div>
+
     </div>
   </body>
 </html>

@@ -33,15 +33,8 @@ margin-top: 145px;
 }
 .main {
   z-index: 100;
-  overflow: hidden;
+  position: relative;
 }
-
-.parallax {
-position: fixed;
-left: 20px;
-right: 0px;
-z-index: 1;}
-
 .kitchen {
   position: relative;
   background-color: rgba(135, 104, 225, 1);
@@ -300,21 +293,21 @@ animation: bladee 2s steps(1) infinite;
   position: absolute;
 width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 980px;
-margin-top: 76px;
-margin-left: 48%;
+height: 1075px;
 background-position: 0 0;
 z-index: 2;
 animation: ba 2.5s infinite;
 background-size: 100% 100%;
+top: 78px;
+left: 47.6%;
 }
 .b {
   position: absolute;
-  width: 380px;
+  width: 374px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
-  margin-top: 998px;
-  margin-left: 52%;
+  top: 1095px;
+  left: 52.1%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -325,15 +318,121 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 360px;
-margin-top: 1154px;
-margin-left: 983px;
+top: 1153px;
+left: 76.80%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
 background-size: 100% 100%;
 }
+.d {
+  position: absolute;
+  width: 316px;
+background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
+  height: 58px;
+  top: 1455px;
+  left: 52.1%;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  animation: be 3s infinite;
+  animation-direction: reverse;
+  z-index: 2;
+}
+.e {
+  position: absolute;
+width: 58px;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+height: 398px;
+background-position: 0 0;
+z-index: 2;
+animation: ba 2.5s infinite;
+background-size: 100% 100%;
+top: 1700px;
+left: 17.5%;
+}
+.f {
+  position: absolute;
+  width: 867px;
+background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
+  height: 58px;
+  top: 2040px;
+  left: 22%;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  animation: be 6s infinite;
+  z-index: 2;
+}
+.g {
+  position: absolute;
+width: 58px;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+height: 344px;
+top: 2098px;
+left: 85.2%;
+background-position: 0 0;
+z-index: 1;
+animation: ba 8s infinite;
+background-size: 100% 100%;
+}
+.h {
+  position: absolute;
+  width: 971px;
+background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
+  height: 58px;
+  top: 2384px;
+  left: 9.4%;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  animation: be 6s infinite;
+  z-index: 2;
+}
+.i {
+  position: absolute;
+width: 58px;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+height: 550px;
+top: 2441px;
+left: 9.4%;
+background-position: 0 0;
+z-index: 1;
+animation: ba 8s infinite;
+background-size: 100% 100%;
+}
+.j {
+  position: absolute;
+  width: 400px;
+background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
+  height: 58px;
+  top: 2933px;
+  left: 13.8%;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  animation: be 6s infinite;
+  z-index: 2;
+}
+.k {
+  position: absolute;
+width: 58px;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+height: 1009px;
+background-position: 0 0;
+z-index: 2;
+animation: ba 2.5s infinite;
+background-size: 100% 100%;
+top: 2933px;
+left: 49.5%;
+}
 * {
   z-index: 10;
+}
+.begin {
+  position: absolute;
+left: 38%;
+top: 42px;
+}
+.begin img {
+  width: 310px;
+  height: 100%;
 }
 @keyframes ba {
   0% {background-position: 0 0;}
@@ -423,6 +522,7 @@ width: 100%;
   display: none;
   margin: 0px;
 }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
 .kitchen {
   width: 215px;
@@ -532,11 +632,44 @@ padding-top: 30px;
 
 
   <body>
+<div class="a">
+
+</div>
+<div class="b">
+
+</div>
+<div class="c">
+
+</div>
+<div class="d">
+
+</div>
+<div class="e">
+
+</div>
+<div class="f">
+
+</div>
+<div class="g">
+
+</div>
+<div class="h">
+
+</div>
+<div class="i">
+
+</div>
+<div class="j">
+
+</div>
+<div class="k">
+
+</div>
+    <div class="begin">
+      <img src="images/upup.svg" alt="">
+    </div>
     <div class="main">
       <img src="images/desktop.svg" alt="">
-      <!-- <div class="lava">
-        <img src="images/lava.svg" alt="">
-      </div> -->
     </div>
     <div class="phonemain">
 <img src="images/mainvul.svg" alt="">
@@ -612,5 +745,6 @@ padding-top: 30px;
 
     <img src="images/bonap.svg" alt="">
     </div>
+
 </body>
 </html>

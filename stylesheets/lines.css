@@ -6,6 +6,56 @@
   0% {background-position: 0 0;}
   100% {background-position: 374px 0px;}
 }
+.sdohlacont {
+  position: absolute;
+  top: 5626px;
+  width: 434px;
+  height: 552px;
+  overflow: hidden;
+  left: 57px;
+}
+.sdohlacont2 {
+  position: absolute;
+  top: 5534px;
+  width: 434px;
+  height: 552px;
+  overflow: hidden;
+  left: 754px;
+  transform: rotate(10deg);
+}
+
+.sdohla {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: mew 0.7s steps(1) alternate infinite;}
+@keyframes mew {
+  0% {left: 0px;}
+  25% {left: -434px;}
+  50% {left: -868px;}
+  75% {left: -1302px;}
+}
+.littlecont {
+  position: absolute;
+  top: 6136px;
+  width: 258px;
+  height: 332px;
+  overflow: hidden;
+  left: 546px;
+  transform: rotate(180deg);
+}
+.little {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: pew 0.6s steps(1) alternate infinite;
+}
+@keyframes pew {
+  0% {left: 0px;}
+  25% {left: -258px;}
+  50% {left: -516px;}
+  75% {left: -774px;}
+}
 .four {
   position: absolute;
 top: 0px;

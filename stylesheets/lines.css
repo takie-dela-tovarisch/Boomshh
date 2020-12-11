@@ -6,6 +6,422 @@
   0% {background-position: 0 0;}
   100% {background-position: 374px 0px;}
 }
+.four {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: ohh 0.7s steps(1) alternate infinite;
+}
+@keyframes ohh {
+  0% {left: 0px;}
+  20% {left: -289px;}
+  40% {left: -578px;}
+  60% {left: -867px;}
+  80% {left: -1156px;}
+}
+.sprite {
+  position: absolute;
+  top: 6864px;
+  width: 289px;
+  height: 255px;
+  overflow: hidden;
+  left: 168px;
+}
+.three {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: ohh 0.7s steps(1) alternate infinite;
+}
+@keyframes ohh {
+  0% {left: 0px;}
+  20% {left: -289px;}
+  40% {left: -578px;}
+  60% {left: -867px;}
+  80% {left: -1156px;}
+}
+.sprite2 {
+  position: absolute;
+  top: 4765px;
+  width: 289px;
+  height: 255px;
+  overflow: hidden;
+  left: 354px;
+}
+.two {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: ohh 0.7s steps(1) alternate infinite;
+}
+@keyframes ohh {
+  0% {left: 0px;}
+  20% {left: -289px;}
+  40% {left: -578px;}
+  60% {left: -867px;}
+  80% {left: -1156px;}
+}
+.sprite3 {
+  position: absolute;
+  top: 2481px;
+  width: 289px;
+  height: 255px;
+  overflow: hidden;
+  left: 635px;
+}
+.bleach {
+  position: absolute;
+  top: 29px;
+  width: 596px;
+  height: 530px;
+  overflow: hidden;
+  left: 122px;
+  z-index: 200;
+}
+@keyframes uhh {
+  0% {left: 0px;}
+  20% {left: -596px;}
+  40% {left: -1191px;}
+  60% {left: -1787px;}
+  80% {left: -2383px;}
+}
+.name {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: uhh 0.7s steps(1) alternate infinite;
+}
+.bag {
+  position: absolute;
+  top: 9px;
+  width: 548px;
+  height: 530px;
+  overflow: hidden;
+  left: 676px;
+}
+@keyframes uhh {
+  0% {left: 0px;}
+  20% {left: -596px;}
+  40% {left: -1191px;}
+  60% {left: -1787px;}
+  80% {left: -2383px;}
+}
+.name2 {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: uhh 0.7s steps(1) alternate infinite;
+}
+.one {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: ohh 0.7s steps(1) alternate infinite;
+}
+@keyframes ohh {
+  0% {left: 0px;}
+  20% {left: -289px;}
+  40% {left: -578px;}
+  60% {left: -867px;}
+  80% {left: -1156px;}
+}
+.sprite4 {
+  position: absolute;
+  top: 981px;
+  width: 289px;
+  height: 255px;
+  overflow: hidden;
+  left: 133px;
+}
+.aaaa {
+  position: absolute;
+width: 58px;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+height: 38px;
+background-position: 0 0;
+z-index: 200;
+animation: ba 30s infinite;
+background-size: 100% 100%;
+top: 7129px;
+left: 69.3%;
+opacity: 0.2;
+}
+.aaaa2 {
+  position: absolute;
+width: 58px;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+height: 38px;
+background-position: 0 0;
+z-index: 200;
+animation: ba 30s infinite;
+background-size: 100% 100%;
+top: 7225px;
+left: 69.3%;
+opacity: 0.2;
+}
+.aaaa3 {
+  position: absolute;
+width: 58px;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+height: 38px;
+background-position: 0 0;
+z-index: 200;
+animation: ba 30s infinite;
+background-size: 100% 100%;
+top: 7300px;
+left: 69.3%;
+opacity: 0.2;
+}
+.sort:hover + .umirayu {
+  opacity: 1;
+}
+.umirayu {
+  opacity: 0;
+}
+.squares3 {
+  position: absolute;
+  top: 7300px;
+  left: 396px;
+}
+.squares2 {
+  position: absolute;
+  top: 7225px;
+  left: 396px;
+}
+.squares {
+  position: absolute;
+  top: 7129px;
+  left: 396px;
+}
+.square {
+  position: absolute;
+  left: 476px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step1 1s alternate infinite;
+}
+@keyframes step1 {
+  0% {left: 491px;}
+  100% {left: 476px;}
+}
+@keyframes step2 {
+  0% {left: 491px;}
+  100% {left: 461px;}
+}
+
+.square2 {
+  position: absolute;
+  left: 461px;
+  top: 12.7px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step2 1s alternate infinite;
+}
+.square3 {
+  position: absolute;
+  left: 491px;
+  top: 25.4px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step1 1s alternate infinite;
+}
+.square4 {
+  position: absolute;
+  left: 506.4px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step3 1s alternate infinite;
+}
+
+@keyframes step3 {
+  0% {left: 506.4px;}
+  100% {left: 446.4px;}
+}
+.square5 {
+  position: absolute;
+  left: 506.4px;
+  top: 12.7px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step4 1s alternate infinite;
+}
+@keyframes step4 {
+  0% {left: 506.4px;}
+  100% {left: 431.4px;}
+}
+
+.square6 {
+  position: absolute;
+  left: 506.4px;
+  top: 25.4px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step3 1s alternate infinite;
+}
+.square7 {
+  position: absolute;
+  left: 521.4px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step6 1s alternate infinite;
+}
+.square8 {
+  position: absolute;
+  left: 521.4px;
+  top: 12.7px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step5 1s alternate infinite;
+}
+@keyframes step5 {
+  0% {left: 521.4px;}
+  100% {left: 593.4px;}
+}
+.square9 {
+  position: absolute;
+  left: 521.4px;
+  top: 25.4px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step6 1s alternate infinite;
+}
+@keyframes step6 {
+  0% {left: 521.4px;}
+  100% {left: 579.4px;}
+}
+.square10 {
+  position: absolute;
+  left: 535px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step7 1s alternate infinite;
+}
+@keyframes step7 {
+  0% {left: 535px;}
+  100% {left: 549px;}
+}
+.square11 {
+  position: absolute;
+  left: 535px;
+  top: 12.7px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step8 1s alternate infinite;
+}
+@keyframes step8 {
+  0% {left: 535px;}
+  100% {left: 564px;}
+}
+.square12 {
+  position: absolute;
+  left: 535px;
+  top: 25.4px;
+  width: 14.5px;
+  height: 12.7px;
+  background-color: #FFCD00;
+  animation: step7 1s alternate infinite;
+}
+@keyframes step7 {
+  0% {left: 535px;}
+  100% {left: 549px;}
+}
+.candyline {
+  position: absolute;
+width: 58px;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+height: 269px;
+background-position: 0 0;
+z-index: 200;
+animation: ba 2.5s infinite;
+background-size: 100% 100%;
+top: 3296px;
+left: 49.5%;
+opacity: 0.2;
+}
+.candy {
+  position: absolute;
+  width: 58px;
+  height: 269px;
+  top: 3296px;
+  left:  49.5%;
+  overflow: hidden;
+  opacity: 0;
+}
+.bowl:hover + .candy {
+  opacity: 1;
+}
+.candy1 {
+  position: absolute;
+  top: -40%;
+  animation: candybig 1s linear infinite;
+}
+.candy4 {
+  position: absolute;
+  top: -40%;
+  left: 54%;
+  animation: candybig 1.2s linear infinite;
+}
+.candy2 {
+  position: absolute;
+  top: -40%;
+  left: 54%;
+  animation: candybig 1.5s linear infinite;
+  animation-delay: 1s;
+}
+.candy3 {
+  position: absolute;
+  top: -40%;
+  left: 0%;
+  animation: candybig 1.8s linear infinite;
+  animation-delay: 0.3s;
+}
+@keyframes candybig {
+0% {
+  top: -40%
+}
+100% {
+  top: 100%;
+}
+}
+.kitchenlines {
+  opacity: 1;
+}
+.kitchenline {
+  position: absolute;
+  width: 676px;
+background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
+  height: 58px;
+  top: 1455px;
+  left: 17.6%;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  animation: be 3s infinite;
+  animation-direction: reverse;
+  z-index: 200;
+}
+.kitchenline2 {
+  position: absolute;
+width: 58px;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+height: 253px;
+background-position: 0 0;
+z-index: 200;
+animation: ba 10s infinite;
+background-size: 100% 100%;
+top: 1512px;
+left: 17.5%;
+}
 .a {
   position: absolute;
 width: 58px;
@@ -201,7 +617,7 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .q {
   position: absolute;
-width: 62px;
+width: 63px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 915px;
 top: 4632px;
@@ -249,11 +665,11 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .u {
   position: absolute;
-width: 62px;
+width: 64px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 1200px;
 top: 4932px;
-left: 95.1%;
+left: 95.0%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;

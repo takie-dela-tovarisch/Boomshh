@@ -11,6 +11,7 @@
     }
       body {
         background-color: black;
+        width: 1280px;
         margin: 0 auto;
         position: relative;
         display: block;
@@ -21,7 +22,7 @@ position: absolute;
 left: 0;
 top: 0;
 right: 0;
-background: url('images/mac.jpg') no-repeat;
+/* background: url('images/mac.jpg') no-repeat; */
 height: 100%;
 display: block;
 opacity: .2;
@@ -35,6 +36,99 @@ margin-top: 145px;
   z-index: 100;
   position: relative;
 }
+
+
+.kitchentwo {
+  position: absolute;
+  width: 809px;
+  height: 564px;
+  left: 91px;
+  top: 1200px;
+  opacity: 0;
+  overflow: hidden;
+}
+.kitchentwo:hover {
+  opacity: 1;
+}
+.kitchentwo:hover + .kitchenlines {
+  opacity: 0;
+}
+.banana {
+  position: absolute;
+  top: 263px;
+  left: 100%;
+  animation: banana 2s linear infinite;
+}
+.banana img {
+width: 94.48px;
+height: 71.99px;
+}
+.banana2 {
+  position: absolute;
+  top: 263px;
+  left: 100%;
+  animation: banana2 3s linear infinite;
+}
+.banana2 img {
+width: 100.21px;
+height: 57.41px;
+}
+.banana3 {
+  position: absolute;
+  top: 263px;
+  left: 100%;
+  animation: banana2 3s linear infinite;
+  animation-delay: 1.5s;
+}
+.banana3 img {
+width: 100.21px;
+height: 57.41px;
+}
+.lemon {
+position: absolute;
+top: 263px;
+left: 100%;
+animation: lemon 3s linear infinite;}
+.lemon img {
+  width: 57.97px;
+  height: 45.38px;
+}
+.lemon2 {
+position: absolute;
+top: 263px;
+left: 100%;
+animation: lemon2 3s linear infinite;
+animation-delay: 2s;}
+.lemon2 img {
+  width: 37.87px;
+  height: 40.66px;
+}
+@keyframes lemon {
+0% {left: 100%; top: 263px; transform: rotate(0deg);
+}
+50% {left: 16%; top: 263px; transform: rotate(0deg)}
+100% {left: 16%; top: 600px; transform: rotate(-90deg)}
+}
+@keyframes lemon2 {
+0% {left: 100%; top: 263px; transform: rotate(180deg);
+}
+40% {left: 16%; top: 263px; transform: rotate(90deg)}
+100% {left: 16%; top: 600px; transform: rotate(-90deg)}
+}
+@keyframes banana {
+0% {left: 100%; top: 263px; transform: rotate(0deg);
+}
+60% {left: 16%; top: 263px; transform: rotate(0deg)}
+100% {left: 16%; top: 600px; transform: rotate(90deg)}
+}
+@keyframes banana2 {
+0% {left: 102%; top: 263px; transform: rotate(90deg);
+}
+50% {left: 16%; top: 263px; transform: rotate(90deg)}
+100% {left: 16%; top: 600px; transform: rotate(0deg)}
+
+}
+
 .kitchen {
   position: relative;
   background-color: rgba(135, 104, 225, 1);
@@ -114,6 +208,10 @@ line-height: 65px;
   display: flex;
   justify-content: space-between;
   margin-top: 1400px;
+  opacity: 0;
+}
+.contain:hover {
+  opacity: 1;
 }
 .blades {
 }
@@ -138,7 +236,7 @@ line-height: 65px;
   margin-left: 0px;
   background-image: url(images/jojo.svg);
   background-position: top 0px right 0px;
-  animation: bladee 2s steps(1) infinite;
+animation: bladee 2s steps(1) infinite;
 }
 @keyframes bladee {
   0% {background-position: right 0px top 0px;}
@@ -161,7 +259,9 @@ line-height: 65px;
   background-image: url(images/jojo.svg);
   background-position: top 0px right 0px;
   animation: bladee 2s steps(1) infinite;
+
 }
+
 .bladee-right {
   position: relative;
   height: 696px;
@@ -188,7 +288,7 @@ line-height: 65px;
 .bladestext {
   position: absolute;
   left: 27%;
-  top: 4920px;
+  top: 4999px;
 }
 .bladestext h1 {
   font-family: FuturaFuturisBlackC;
@@ -287,7 +387,12 @@ width: 100%;
   display: none;
   margin: 0px;
 }
-
+.bottom img {
+  position: absolute;
+  top: 8081px;
+  width: 92%;
+  left: 5%;
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
 .kitchen {
   width: 215px;
@@ -391,12 +496,36 @@ position: relative;
 padding-top: 30px;
 }
 }
-
+.parallax {
+  position: fixed;
+  left: 20%;
+  top: 16px;
+  z-index: 1;
+}
     </style>
   </head>
 
 
   <body>
+<div class="parallax">
+  <img src="images/dots.svg" alt="">
+</div>
+<div class="sprite">
+  <div class="four">
+    <img src="images/sprite.svg" alt="">
+  </div>
+</div>
+<div class="sprite2">
+  <div class="three">
+    <img src="images/sprite2.svg" alt="">
+  </div>
+</div>
+<div class="sprite3">
+  <div class="two">
+    <img src="images/sprite3.svg" alt="">
+  </div>
+</div>
+
 <div class="a">
 
 </div>
@@ -484,6 +613,7 @@ padding-top: 30px;
 <div class="af">
 
 </div>
+
     <div class="begin">
       <img src="images/upup.svg" alt="">
     </div>
@@ -497,6 +627,29 @@ padding-top: 30px;
   <div class="kitchen">
   <h1>step 1</h1>
   <p>кухня</p>
+  </div>
+  <div class="kitchentwo">
+  <div class="banana">
+    <img src="images/banana.svg" alt="">
+  </div>
+  <div class="banana2">
+    <img src="images/banana.svg" alt="">
+  </div>
+  <div class="banana3">
+    <img src="images/banana.svg" alt="">
+  </div>
+  <div class="lemon">
+    <img src="images/lemon.svg" alt="">
+  </div>
+  <div class="lemon2">
+  <img src="images/lemon.svg" alt="">
+  </div>
+  </div>
+  <div class="kitchenlines">
+    <div class="kitchenline">
+    </div>
+    <div class="kitchenline2">
+    </div>
   </div>
 
 
@@ -515,28 +668,46 @@ padding-top: 30px;
         <div class="middledesktop">
           <img src="images/middledesktop.svg" alt="">
         </div>
-
       </div>
       <h1>step 2</h1>
       <p>cистема котлов внутри вулканов</p>
+    </div>
+
+    <div class="candy">
+<div class="candy1">
+<img src="images/candy.svg" alt="">
+</div>
+<div class="candy2">
+<img src="images/candy.svg" alt="">
+</div>
+<div class="candy3">
+<img src="images/candy.svg" alt="">
+</div>
+<div class="candy4">
+<img src="images/candy.svg" alt="">
+</div>
+    </div>
+
+    <div class="candyline">
+
     </div>
 
 <div class="contain">
 
 
     <div class="blades">
+
       <div class="blade-right">
       </div>
-
       <div class="blade-leftt">
       </div>
+
     </div>
 
     <div class="bladestwo">
 
       <div class="bladee-leftt">
       </div>
-
       <div class="bladee-right">
       </div>
 
@@ -549,6 +720,8 @@ padding-top: 30px;
   <p>лавовые лезвия</p>
 </div>
 
+
+
     <div class="sort">
       <h1>step 4</h1>
       <p>вулканическая сортировка</p>
@@ -560,10 +733,115 @@ padding-top: 30px;
       </div>
     </div>
 
-    <div class="endgame">
-
-    <img src="images/bonap.svg" alt="">
+    <div class="umirayu">
+    <div class="squares">
+      <div class="square">
+      </div>
+      <div class="square2">
+      </div>
+      <div class="square3">
+      </div>
+      <div class="square4">
+      </div>
+      <div class="square5">
+      </div>
+      <div class="square6">
+      </div>
+      <div class="square7">
+      </div>
+      <div class="square8">
+      </div>
+      <div class="square9">
+      </div>
+      <div class="square10">
+      </div>
+      <div class="square11">
+      </div>
+      <div class="square12">
+      </div>
+    </div>
+    <div class="squares2">
+      <div class="square">
+      </div>
+      <div class="square2">
+      </div>
+      <div class="square3">
+      </div>
+      <div class="square4">
+      </div>
+      <div class="square5">
+      </div>
+      <div class="square6">
+      </div>
+      <div class="square7">
+      </div>
+      <div class="square8">
+      </div>
+      <div class="square9">
+      </div>
+      <div class="square10">
+      </div>
+      <div class="square11">
+      </div>
+      <div class="square12">
+      </div>
+    </div>
+    <div class="squares3">
+      <div class="square">
+      </div>
+      <div class="square2">
+      </div>
+      <div class="square3">
+      </div>
+      <div class="square4">
+      </div>
+      <div class="square5">
+      </div>
+      <div class="square6">
+      </div>
+      <div class="square7">
+      </div>
+      <div class="square8">
+      </div>
+      <div class="square9">
+      </div>
+      <div class="square10">
+      </div>
+      <div class="square11">
+      </div>
+      <div class="square12">
+      </div>
+    </div>
     </div>
 
+
+    <div class="endgame">
+    <img src="images/bonap.svg" alt="">
+    </div>
+    <div class="aaaa">
+    </div>
+    <div class="aaaa2">
+    </div>
+    <div class="aaaa3">
+    </div>
+<div class="bottom">
+  <img src="images/bottom.svg" alt="">
+</div>
+<div class="sprite4">
+  <div class="one">
+    <img src="images/sprite4.svg" alt="">
+  </div>
+</div>
+
+<div class="bleach">
+  <div class="name">
+<img src="images/name.svg" alt="">
+  </div>
+</div>
+<div class="bag">
+  <div class="name2">
+<img src="images/name2.svg" alt="">
+  </div>
+</div>
 </body>
 </html>

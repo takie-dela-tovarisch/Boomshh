@@ -75,10 +75,118 @@
       90% {background-position: right 30px top -626px;}
       100% {background-position: right 30px top -697px;}
     }
+    .kitchentwo {
+      position: relative;
+      background-color: blue;
+      width: 809px;
+      height: 564px;
+      margin-left: 91px;
+      margin-top: 445px;
+      overflow: hidden;
+    }
+    .banana {
+      position: absolute;
+      top: 263px;
+      left: 100%;
+      animation: banana 2s linear infinite;
+    }
+    .banana img {
+width: 94.48px;
+height: 71.99px;
+    }
+    .banana2 {
+      position: absolute;
+      top: 263px;
+      left: 100%;
+      animation: banana2 3s linear infinite;
+    }
+    .banana2 img {
+width: 100.21px;
+height: 57.41px;
+    }
+    .banana3 {
+      position: absolute;
+      top: 263px;
+      left: 100%;
+      animation: banana2 3s linear infinite;
+      animation-delay: 1.5s;
+    }
+    .banana3 img {
+width: 100.21px;
+height: 57.41px;
+    }
+    .lemon {
+    position: absolute;
+    top: 263px;
+    left: 100%;
+  animation: lemon 3s linear infinite;}
+    .lemon img {
+      width: 57.97px;
+      height: 45.38px;
+    }
+    .lemon2 {
+    position: absolute;
+    top: 263px;
+    left: 100%;
+  animation: lemon2 3s linear infinite;
+animation-delay: 2s;}
+    .lemon2 img {
+      width: 37.87px;
+      height: 40.66px;
+    }
+    @keyframes lemon {
+0% {left: 100%; top: 263px; transform: rotate(0deg);
+}
+50% {left: 20%; top: 263px; transform: rotate(0deg)}
+100% {left: 20%; top: 600px; transform: rotate(-90deg)}
+    }
+    @keyframes lemon2 {
+0% {left: 100%; top: 263px; transform: rotate(180deg);
+}
+40% {left: 20%; top: 263px; transform: rotate(90deg)}
+100% {left: 20%; top: 600px; transform: rotate(-90deg)}
+    }
+    @keyframes banana {
+0% {left: 100%; top: 263px; transform: rotate(0deg);
+}
+60% {left: 20%; top: 263px; transform: rotate(0deg)}
+100% {left: 20%; top: 600px; transform: rotate(90deg)}
+    }
+    @keyframes banana2 {
+0% {left: 102%; top: 263px; transform: rotate(90deg);
+}
+50% {left: 20%; top: 263px; transform: rotate(90deg)}
+100% {left: 20%; top: 600px; transform: rotate(0deg)}
+
+    }
+    .button {
+      position: absolute;
+      top: 200px;
+      width: 100px;
+      height: 100px;
+      background-color: red;
+    }
+    .button2 {
+      position: absolute;
+      top: 200px;
+      left: 200px;
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+    }
+    .button:hover + .button2 {
+      background-color: red;
+    }
     </style>
   </head>
   <body>
-    <div class="blades">
+    <div class="button">
+    </div>
+    <div class="button2">
+
+    </div>
+
+    <!-- <div class="blades">
       <div class="blade-right">
       </div>
 
@@ -90,7 +198,23 @@
       </div>
       <div class="bladee-right">
       </div>
-
     </div>
+    <div class="kitchentwo">
+    <div class="banana">
+      <img src="images/banana.svg" alt="">
+    </div>
+    <div class="banana2">
+      <img src="images/banana.svg" alt="">
+    </div>
+    <div class="banana3">
+      <img src="images/banana.svg" alt="">
+    </div>
+    <div class="lemon">
+      <img src="images/lemon.svg" alt="">
+    </div>
+    <div class="lemon2">
+    <img src="images/lemon.svg" alt="">
+    </div>
+    </div> -->
   </body>
 </html>

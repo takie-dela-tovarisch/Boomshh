@@ -408,8 +408,11 @@ opacity: 0.2;
   overflow: hidden;
   opacity: 0;
 }
-.bowl:hover + .candy {
+.bowl:hover ~ .candy {
   opacity: 1;
+}
+.bowl:hover ~ .candyline {
+  opacity: 0;
 }
 .candy1 {
   position: absolute;
@@ -444,55 +447,53 @@ opacity: 0.2;
   top: 100%;
 }
 }
-.kitchenlines {
-  opacity: 1;
-}
 .kitchenline {
   position: absolute;
-  /* width: 676px; */
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 1455px;
-  left: 17.6%;
+height: 4.66vw;
+  bottom: 82.85%;
+  left: 22%;
   right: 29.6%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 3s infinite;
   animation-direction: reverse;
-  z-index: 200;
+  z-index: 20;
+  opacity: 1;
 }
 .kitchenline2 {
   position: absolute;
-/* width: 58px; */
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 background-position: 0 0;
 z-index: 200;
 animation: ba 10s infinite;
 background-size: 100% 100%;
-top: 1455px;
+top: 16.48%;
 left: 17.5%;
-right: 78%;
-bottom: 80%;
+right: 77.97%;
+bottom: 80.1%;
+opacity: 1;
 }
 .a {
   position: absolute;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 1075px;
+/* height: 84.1vw; */
 background-position: 0 0;
 z-index: 2;
 animation: ba 2.5s infinite;
 background-size: 100% 100%;
 top: 78px;
+bottom: 87%;
 left: 47.7%;
 right: 47.7%;
 }
 .b {
   position: absolute;
-  /* width: 374px; */
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 1095px;
+  height: 4.66vw;
+  /* top: 12.45%; */
   left: 47.7%;
+  bottom: 86.9%;
   right: 18.7%;
   background-position: 0 0;
   background-size: 100% 100%;
@@ -501,10 +502,9 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .c {
   position: absolute;
-/* width: 58px; */
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 360px;
-top: 1153px;
+top: 13%;
+bottom: 82.85%;
 left: 76.80%;
 right: 18.7%;
 background-position: 0 0;
@@ -514,17 +514,18 @@ background-size: 100% 100%;
 }
 .d {
   position: absolute;
-  /* width: 316px; */
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 1455px;
+  /* top: 16.5%; */
   left: 52.1%;
+  height: 4.66vw;
   right: 18.7%;
+  bottom: 82.85%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 3s infinite;
   animation-direction: reverse;
   z-index: 2;
+  opacity: 0.5;
 }
 .e {
   position: absolute;
@@ -533,8 +534,8 @@ background-position: 0 0;
 z-index: 2;
 animation: ba 2.5s infinite;
 background-size: 100% 100%;
-top: 20.9%;
-bottom: 75.04%;
+top: 19.9%;
+bottom: 76.5%;
 left: 17.5%;
 right: 77.97%;
 }

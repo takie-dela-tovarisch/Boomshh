@@ -8,20 +8,30 @@
 }
 .sdohlacont {
   position: absolute;
-  top: 5626px;
+  top: 69%;
   width: 434px;
   height: 552px;
   overflow: hidden;
-  left: 57px;
+  left: 5%;
+
 }
 .sdohlacont2 {
   position: absolute;
-  top: 5534px;
+  top: 50.5%;
   width: 434px;
   height: 552px;
   overflow: hidden;
-  left: 754px;
-  transform: rotate(10deg);
+  right: 1%;
+  transform: rotate(180deg);
+}
+.sdohlacont3 {
+  position: absolute;
+  top: 19.5%;
+  width: 434px;
+  height: 552px;
+  overflow: hidden;
+  right: 39%;
+  transform: rotate(90deg);
 }
 
 .sdohla {
@@ -37,11 +47,11 @@ animation: mew 0.7s steps(1) alternate infinite;}
 }
 .littlecont {
   position: absolute;
-  top: 6136px;
+  top: 74.5%;
   width: 258px;
   height: 332px;
   overflow: hidden;
-  left: 546px;
+  left: 43%;
   transform: rotate(180deg);
 }
 .little {
@@ -49,6 +59,15 @@ animation: mew 0.7s steps(1) alternate infinite;}
 top: 0px;
 left: 0px;
 animation: pew 0.6s steps(1) alternate infinite;
+}
+.littlecont2 {
+  position: absolute;
+  top: 27.55%;
+  width: 258px;
+  height: 332px;
+  overflow: hidden;
+  left: 16%;
+  transform: rotate(180deg);
 }
 @keyframes pew {
   0% {left: 0px;}
@@ -71,11 +90,11 @@ animation: ohh 0.7s steps(1) alternate infinite;
 }
 .sprite {
   position: absolute;
-  top: 6864px;
+  top: 80%;
   width: 289px;
   height: 255px;
   overflow: hidden;
-  left: 168px;
+  left: 13%;
 }
 .three {
   position: absolute;
@@ -92,11 +111,11 @@ animation: ohh 0.7s steps(1) alternate infinite;
 }
 .sprite2 {
   position: absolute;
-  top: 4765px;
+  top: 58.5%;
   width: 289px;
   height: 255px;
   overflow: hidden;
-  left: 354px;
+  left: 28%;
 }
 .two {
   position: absolute;
@@ -113,19 +132,19 @@ animation: ohh 0.7s steps(1) alternate infinite;
 }
 .sprite3 {
   position: absolute;
-  top: 2481px;
+  top: 29.4%;
   width: 289px;
   height: 255px;
   overflow: hidden;
-  left: 635px;
+  right: 29%;
 }
 .bleach {
   position: absolute;
-  top: 29px;
+  top: 0.3%;
   width: 596px;
   height: 530px;
   overflow: hidden;
-  left: 122px;
+  left: 9%;
   z-index: 200;
 }
 @keyframes uhh {
@@ -143,11 +162,11 @@ animation: uhh 0.7s steps(1) alternate infinite;
 }
 .bag {
   position: absolute;
-  top: 9px;
+  top: 0.2%;
   width: 548px;
   height: 530px;
   overflow: hidden;
-  left: 676px;
+  right: 0%;
 }
 @keyframes uhh {
   0% {left: 0px;}
@@ -177,77 +196,71 @@ animation: ohh 0.7s steps(1) alternate infinite;
 }
 .sprite4 {
   position: absolute;
-  top: 981px;
+  top: 11%;
   width: 289px;
   height: 255px;
   overflow: hidden;
-  left: 133px;
+  left: 10%;
 }
 .aaaa {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 38px;
+height: 3.1vw;
 background-position: 0 0;
 z-index: 200;
 animation: ba 30s infinite;
 background-size: 100% 100%;
-top: 7129px;
-left: 69.3%;
+right: 26.9%;
+left: 64.7%;
 opacity: 0.2;
 }
 .aaaa2 {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 38px;
+height: 3.1vw;
 background-position: 0 0;
 z-index: 200;
 animation: ba 30s infinite;
 background-size: 100% 100%;
-top: 7225px;
-left: 69.3%;
+right: 43.9%;
+left: 42.7%;
 opacity: 0.2;
 }
 .aaaa3 {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 38px;
+height: 3.1vw;
 background-position: 0 0;
 z-index: 200;
 animation: ba 30s infinite;
 background-size: 100% 100%;
-top: 7300px;
-left: 69.3%;
+right: 36.2%;
+left: 52.6%;
 opacity: 0.2;
 }
-.sort:hover + .umirayu {
+.sort:hover ~ .squares {
   opacity: 1;
-}
-.umirayu {
-  opacity: 0;
 }
 .squares3 {
   position: absolute;
-  top: 7300px;
-  left: 396px;
+  left: -42%;
+  opacity: 0;
 }
 .squares2 {
   position: absolute;
-  top: 7225px;
-  left: 396px;
+  left: -71.6%;
+  opacity: 0;
 }
 .squares {
   position: absolute;
-  top: 7129px;
-  left: 396px;
+  left: -5.5%;
+  opacity: 0;
 }
 .square {
   position: absolute;
   left: 476px;
   width: 14.5px;
-  height: 12.7px;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step1 1s alternate infinite;
 }
@@ -264,8 +277,8 @@ opacity: 0.2;
   position: absolute;
   left: 461px;
   top: 12.7px;
-  width: 14.5px;
-  height: 12.7px;
+  width: 1.1vw;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step2 1s alternate infinite;
 }
@@ -273,16 +286,16 @@ opacity: 0.2;
   position: absolute;
   left: 491px;
   top: 25.4px;
-  width: 14.5px;
-  height: 12.7px;
+  width: 1.1vw;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step1 1s alternate infinite;
 }
 .square4 {
   position: absolute;
   left: 506.4px;
-  width: 14.5px;
-  height: 12.7px;
+  width: 1.1vw;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step3 1s alternate infinite;
 }
@@ -295,8 +308,8 @@ opacity: 0.2;
   position: absolute;
   left: 506.4px;
   top: 12.7px;
-  width: 14.5px;
-  height: 12.7px;
+  width: 1.1vw;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step4 1s alternate infinite;
 }
@@ -309,16 +322,16 @@ opacity: 0.2;
   position: absolute;
   left: 506.4px;
   top: 25.4px;
-  width: 14.5px;
-  height: 12.7px;
+  width: 1.1vw;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step3 1s alternate infinite;
 }
 .square7 {
   position: absolute;
   left: 521.4px;
-  width: 14.5px;
-  height: 12.7px;
+  width: 1.1vw;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step6 1s alternate infinite;
 }
@@ -326,8 +339,8 @@ opacity: 0.2;
   position: absolute;
   left: 521.4px;
   top: 12.7px;
-  width: 14.5px;
-  height: 12.7px;
+  width: 1.1vw;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step5 1s alternate infinite;
 }
@@ -339,8 +352,8 @@ opacity: 0.2;
   position: absolute;
   left: 521.4px;
   top: 25.4px;
-  width: 14.5px;
-  height: 12.7px;
+  width: 1.1vw;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step6 1s alternate infinite;
 }
@@ -351,8 +364,8 @@ opacity: 0.2;
 .square10 {
   position: absolute;
   left: 535px;
-  width: 14.5px;
-  height: 12.7px;
+  width: 1.1vw;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step7 1s alternate infinite;
 }
@@ -364,8 +377,8 @@ opacity: 0.2;
   position: absolute;
   left: 535px;
   top: 12.7px;
-  width: 14.5px;
-  height: 12.7px;
+  width: 1.1vw;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step8 1s alternate infinite;
 }
@@ -377,8 +390,8 @@ opacity: 0.2;
   position: absolute;
   left: 535px;
   top: 25.4px;
-  width: 14.5px;
-  height: 12.7px;
+  width: 1.1vw;
+  height: 1.1vw;
   background-color: #FFCD00;
   animation: step7 1s alternate infinite;
 }
@@ -468,7 +481,7 @@ background-position: 0 0;
 z-index: 200;
 animation: ba 10s infinite;
 background-size: 100% 100%;
-top: 16.48%;
+top: 16.46%;
 left: 17.5%;
 right: 77.97%;
 bottom: 80.1%;
@@ -515,7 +528,6 @@ background-size: 100% 100%;
 .d {
   position: absolute;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  /* top: 16.5%; */
   left: 52.1%;
   height: 4.66vw;
   right: 18.7%;
@@ -525,7 +537,6 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
   animation: be 3s infinite;
   animation-direction: reverse;
   z-index: 2;
-  opacity: 0.5;
 }
 .e {
   position: absolute;
@@ -535,29 +546,29 @@ z-index: 2;
 animation: ba 2.5s infinite;
 background-size: 100% 100%;
 top: 19.9%;
-bottom: 76.5%;
+bottom: 74%;
 left: 17.5%;
 right: 77.97%;
 }
 .f {
   position: absolute;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 2040px;
   left: 17.5%;
   right: 10.23%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
   z-index: 2;
+  bottom: 74%;
+  height: 4.66vw;
 }
 .g {
   position: absolute;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 344px;
-top: 2098px;
+top: 25.5%;
 left: 85.2%;
 right: 10.23%;
+bottom: 73%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -566,8 +577,8 @@ background-size: 100% 100%;
 .h {
   position: absolute;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 2384px;
+  height: 4.66vw;
+  bottom: 72.5%;
   left: 9.4%;
   right: 10.23%;
   background-position: 0 0;
@@ -578,8 +589,8 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 .i {
   position: absolute;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 550px;
-top: 2441px;
+bottom: 65.2%;
+top: 27%;
 left: 9.4%;
 right: 86.1%;
 background-position: 0 0;
@@ -591,8 +602,8 @@ background-size: 100% 100%;
   position: absolute;
   width: 400px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 2933px;
+  height: 4.66vw;
+  bottom: 65.2%;
   left: 9.4%;
   right: 60%;
   background-position: 0 0;
@@ -603,20 +614,20 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 .k {
   position: absolute;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 1009px;
 background-position: 0 0;
 z-index: 2;
 animation: ba 2.5s infinite;
 background-size: 100% 100%;
-top: 2933px;
+top: 34%;
+bottom: 54.2%;
 right: 45.97%;
 left: 49.5%;
 }
 .l {
   position: absolute;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 3884px;
+  height: 4.66vw;
+  bottom: 54.2%;
   left: 49.5%;
   right: 17.5%;
   background-position: 0 0;
@@ -627,8 +638,8 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 .m {
   position: absolute;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 400px;
-top: 3942px;
+top: 45.5%;
+bottom: 49.5%;
 left: 78%;
 right: 17.5%;
 background-position: 0 0;
@@ -639,8 +650,8 @@ background-size: 100% 100%;
 .n {
   position: absolute;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 4284px;
+  height: 4.66vw;
+  bottom: 49.5%;
   left: 58.9%;
   right: 17.5%;
   background-position: 0 0;
@@ -651,8 +662,8 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 .o {
   position: absolute;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 350px;
-top: 4340px;
+top: 50%;
+bottom: 44%;
 left: 58.9%;
 right: 36.6%;
 background-position: 0 0;
@@ -663,8 +674,8 @@ background-size: 100% 100%;
 .p {
   position: absolute;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 4632px;
+  height: 4.66vw;
+  bottom: 44%;
   left: 0%;
   right: 36.6%;
   background-position: 0 0;
@@ -675,8 +686,8 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 .q {
   position: absolute;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 915px;
-top: 4632px;
+top: 55.5%;
+bottom: 31.5%;
 left: 0%;
 right: 95.08%;
 background-position: 0 0;
@@ -687,8 +698,8 @@ background-size: 100% 100%;
 .r {
   position: absolute;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 5489px;
+  height: 4.66vw;
+  bottom: 31.5%;
   left: 0%;
   right: 28.2%;
   background-position: 0 0;
@@ -699,8 +710,8 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 .s {
   position: absolute;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 600px;
-top: 4932px;
+top: 59%;
+bottom: 31.5%;
 left: 67.3%;
 right: 28.2%;
 background-position: 0 0;
@@ -711,8 +722,8 @@ background-size: 100% 100%;
 .t {
   position: absolute;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 4932px;
+  height: 4.66vw;
+  bottom: 40.5%;
   left: 67.3%;
   right: 0%;
   background-position: 0 0;
@@ -723,9 +734,9 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 .u {
   position: absolute;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 1200px;
-top: 4932px;
+top: 59%;
 left: 95.0%;
+bottom: 25.6%;
 right: 0%;
 background-position: 0 0;
 z-index: 1;
@@ -735,8 +746,8 @@ background-size: 100% 100%;
 .v {
   position: absolute;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 6074px;
+height: 4.66vw;
+  bottom: 25.6%;
   left: 35.2%;
   right: 0%;
   background-position: 0 0;
@@ -747,34 +758,10 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 .w {
   position: absolute;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 505px;
-top: 6100px;
+top: 74%;
+bottom: 21.1%;
 left: 35.2%;
 right: 60.27%;
-background-position: 0 0;
-z-index: 1;
-animation: ba 8s infinite;
-background-size: 100% 100%;
-}
-.aa {
-  position: absolute;
-background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 6547px;
-  left: 35.2%;
-  right: 42.65%;
-  background-position: 0 0;
-  background-size: 100% 100%;
-  animation: be 6s infinite;
-  z-index: 2;
-}
-.ab {
-  position: absolute;
-background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 271px;
-top: 6604px;
-left: 52.8%;
-right: 42.65%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -783,9 +770,9 @@ background-size: 100% 100%;
 .ac {
   position: absolute;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 6817px;
-  left: 52.8%;
+  height: 4.66vw;
+  bottom: 20.5%;
+  left: 35.2%;
   right: 26.2%;
   background-position: 0 0;
   background-size: 100% 100%;
@@ -795,8 +782,8 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 .ad {
   position: absolute;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 792px;
-top: 6874px;
+top: 79%;
+bottom: 10.8%;
 left: 69.3%;
 right: 26.2%;
 background-position: 0 0;
@@ -807,8 +794,8 @@ background-size: 100% 100%;
 .ae {
   position: absolute;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
-  height: 58px;
-  top: 7608px;
+height: 4.66vw;
+  bottom: 10.8%;
   left: 48.4%;
   right: 26.2%;
   background-position: 0 0;
@@ -818,10 +805,9 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .af {
   position: absolute;
-  width: 58px;
   background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-  height: 792px;
-  top: 7650px;
+  top: 88.8%;
+  bottom: 5%;
   left: 48.4%;
   right: 47.07%;
   background-position: 0 0;

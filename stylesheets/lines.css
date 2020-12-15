@@ -449,11 +449,12 @@ opacity: 0.2;
 }
 .kitchenline {
   position: absolute;
-  width: 676px;
+  /* width: 676px; */
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 1455px;
   left: 17.6%;
+  right: 29.6%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 3s infinite;
@@ -462,19 +463,19 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .kitchenline2 {
   position: absolute;
-width: 58px;
+/* width: 58px; */
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 253px;
 background-position: 0 0;
 z-index: 200;
 animation: ba 10s infinite;
 background-size: 100% 100%;
-top: 1512px;
+top: 1455px;
 left: 17.5%;
+right: 78%;
+bottom: 80%;
 }
 .a {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 1075px;
 background-position: 0 0;
@@ -482,15 +483,17 @@ z-index: 2;
 animation: ba 2.5s infinite;
 background-size: 100% 100%;
 top: 78px;
-left: 47.6%;
+left: 47.7%;
+right: 47.7%;
 }
 .b {
   position: absolute;
-  width: 374px;
+  /* width: 374px; */
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 1095px;
-  left: 52.1%;
+  left: 47.7%;
+  right: 18.7%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -498,11 +501,12 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .c {
   position: absolute;
-width: 58px;
+/* width: 58px; */
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 360px;
 top: 1153px;
 left: 76.80%;
+right: 18.7%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -510,11 +514,12 @@ background-size: 100% 100%;
 }
 .d {
   position: absolute;
-  width: 316px;
+  /* width: 316px; */
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 1455px;
   left: 52.1%;
+  right: 18.7%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 3s infinite;
@@ -523,23 +528,23 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .e {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-height: 398px;
 background-position: 0 0;
 z-index: 2;
 animation: ba 2.5s infinite;
 background-size: 100% 100%;
-top: 1700px;
+top: 20.9%;
+bottom: 75.04%;
 left: 17.5%;
+right: 77.97%;
 }
 .f {
   position: absolute;
-  width: 867px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 2040px;
-  left: 22%;
+  left: 17.5%;
+  right: 10.23%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -547,11 +552,11 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .g {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 344px;
 top: 2098px;
 left: 85.2%;
+right: 10.23%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -559,11 +564,11 @@ background-size: 100% 100%;
 }
 .h {
   position: absolute;
-  width: 971px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 2384px;
   left: 9.4%;
+  right: 10.23%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -571,11 +576,11 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .i {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 550px;
 top: 2441px;
 left: 9.4%;
+right: 86.1%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -587,7 +592,8 @@ background-size: 100% 100%;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 2933px;
-  left: 13.8%;
+  left: 9.4%;
+  right: 60%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;

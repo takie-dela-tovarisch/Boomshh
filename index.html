@@ -11,7 +11,7 @@
     }
       body {
         background-color: black;
-        width: 1280px;
+        /* width: 1280px; */
         margin: 0 auto;
         position: relative;
         display: block;
@@ -22,7 +22,7 @@ position: absolute;
 left: 0;
 top: 0;
 right: 0;
-/* background: url('images/mac.jpg') no-repeat; */
+background: url('images/mac.jpg') no-repeat;
 height: 100%;
 display: block;
 opacity: .2;
@@ -50,7 +50,7 @@ margin-top: 145px;
 .kitchentwo:hover {
   opacity: 1;
 }
-.kitchentwo:hover + .kitchenlines {
+.kitchentwo:hover ~ .kitchenlines {
   opacity: 0;
 }
 .banana {
@@ -132,10 +132,11 @@ animation-delay: 2s;}
 .kitchen {
   position: relative;
   background-color: rgba(135, 104, 225, 1);
-  width: 809px;
-  height: 564px;
-  margin-left: 91px;
-  margin-top: 445px;
+  height: 567px;
+  margin-left: 7.2%;
+  margin-right: 29.6%;
+  margin-top: 34.5%;
+  /* margin-bottom: 80%; */
 }
    .kitchen h1 {
     font-family: FuturaFuturisBlackC;
@@ -315,7 +316,8 @@ margin-top: 10px;
 }
 .begin {
   position: absolute;
-left: 37.9%;
+left: 37.8%;
+right: 37.8%;
 top: 42px;
 }
 .begin img {
@@ -661,10 +663,13 @@ animation: dhh 0.6s steps(1) alternate infinite;
 <img src="images/mainvul.svg" alt="">
     </div>
 
+<section>
   <div class="kitchen">
   <h1>step 1</h1>
   <p>кухня</p>
   </div>
+</section>
+
   <div class="kitchentwo">
   <div class="banana">
     <img src="images/banana.svg" alt="">

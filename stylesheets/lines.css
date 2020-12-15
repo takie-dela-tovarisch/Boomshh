@@ -601,7 +601,6 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .k {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 1009px;
 background-position: 0 0;
@@ -609,15 +608,16 @@ z-index: 2;
 animation: ba 2.5s infinite;
 background-size: 100% 100%;
 top: 2933px;
+right: 45.97%;
 left: 49.5%;
 }
 .l {
   position: absolute;
-  width: 365px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 3884px;
-  left: 54%;
+  left: 49.5%;
+  right: 17.5%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -625,11 +625,11 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .m {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 400px;
 top: 3942px;
 left: 78%;
+right: 17.5%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -637,11 +637,11 @@ background-size: 100% 100%;
 }
 .n {
   position: absolute;
-  width: 244px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 4284px;
   left: 58.9%;
+  right: 17.5%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -649,11 +649,11 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .o {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 350px;
 top: 4340px;
 left: 58.9%;
+right: 36.6%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -661,11 +661,11 @@ background-size: 100% 100%;
 }
 .p {
   position: absolute;
-  width: 693px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 4632px;
-  left: 4.8%;
+  left: 0%;
+  right: 36.6%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -673,11 +673,11 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .q {
   position: absolute;
-width: 63px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 915px;
 top: 4632px;
 left: 0%;
+right: 95.08%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -685,11 +685,11 @@ background-size: 100% 100%;
 }
 .r {
   position: absolute;
-  width: 858px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 5489px;
-  left: 4.8%;
+  left: 0%;
+  right: 28.2%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -697,11 +697,11 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .s {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 600px;
 top: 4932px;
 left: 67.3%;
+right: 28.2%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -709,11 +709,11 @@ background-size: 100% 100%;
 }
 .t {
   position: absolute;
-  width: 299px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 4932px;
-  left: 71.79%;
+  left: 67.3%;
+  right: 0%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -721,11 +721,11 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .u {
   position: absolute;
-width: 64px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 1200px;
 top: 4932px;
 left: 95.0%;
+right: 0%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -733,11 +733,11 @@ background-size: 100% 100%;
 }
 .v {
   position: absolute;
-  width: 766px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 6074px;
   left: 35.2%;
+  right: 0%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -745,11 +745,11 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .w {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 505px;
 top: 6100px;
 left: 35.2%;
+right: 60.27%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -757,11 +757,11 @@ background-size: 100% 100%;
 }
 .aa {
   position: absolute;
-  width: 226px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 6547px;
-  left: 39.7%;
+  left: 35.2%;
+  right: 42.65%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -769,11 +769,11 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .ab {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 271px;
 top: 6604px;
 left: 52.8%;
+right: 42.65%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -781,11 +781,11 @@ background-size: 100% 100%;
 }
 .ac {
   position: absolute;
-  width: 212px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 6817px;
-  left: 57.3%;
+  left: 52.8%;
+  right: 26.2%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -793,11 +793,11 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
 }
 .ad {
   position: absolute;
-width: 58px;
 background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
 height: 792px;
 top: 6874px;
 left: 69.3%;
+right: 26.2%;
 background-position: 0 0;
 z-index: 1;
 animation: ba 8s infinite;
@@ -805,11 +805,11 @@ background-size: 100% 100%;
 }
 .ae {
   position: absolute;
-  width: 267px;
 background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
   height: 58px;
   top: 7608px;
   left: 48.4%;
+  right: 26.2%;
   background-position: 0 0;
   background-size: 100% 100%;
   animation: be 6s infinite;
@@ -822,6 +822,7 @@ background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%,
   height: 792px;
   top: 7650px;
   left: 48.4%;
+  right: 47.07%;
   background-position: 0 0;
   z-index: 1;
   animation: ba 8s infinite;

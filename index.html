@@ -22,7 +22,7 @@ position: absolute;
 left: 0;
 top: 0;
 right: 0;
-/* background: url('images/mac.jpg') no-repeat; */
+background: url('images/ipad.jpg') no-repeat;
 height: 100%;
 display: block;
 opacity: .2;
@@ -37,7 +37,58 @@ margin-top: 11%;
   position: relative;
 }
 
-
+.sprite {
+  position: absolute;
+  top: 80%;
+  width: 289px;
+  height: 255px;
+  left: 14%;
+  background: url('images/sprite.svg');
+  background-position: 0px;
+  background-size: cover;
+  animation: ohh 0.7s steps(1) alternate infinite;
+}
+@keyframes ohh {
+  0% {background-position: 0px;}
+  20% {background-position: -289px;}
+  40% {background-position: -578px;}
+  60% {background-position: -867px;}
+  80% {background-position: -1156px;}
+}
+.sprite2 {
+  position: absolute;
+  background: url('images/sprite2.svg');
+  top: 58.5%;
+  width: 289px;
+  height: 255px;
+  overflow: hidden;
+  background-size: cover;
+  left: 30%;
+  background-size: cover;
+  animation: ohh 0.7s steps(1) alternate infinite;
+}
+.sprite3 {
+  position: absolute;
+  background: url('images/sprite3.svg');
+  background-size: cover;
+  top: 29.4%;
+  width: 289px;
+  height: 255px;
+  overflow: hidden;
+  right: 25%;
+  animation: ohh 0.7s steps(1) alternate infinite;
+}
+.sprite4 {
+  position: absolute;
+  background: url('images/sprite4.svg');
+  top: 11%;
+  width: 289px;
+  background-size: cover;
+  height: 255px;
+  overflow: hidden;
+  left: 11%;
+  animation: ohh 0.7s steps(1) alternate infinite;
+}
 .kitchentwo {
   position: absolute;
   left: 7.2%;
@@ -197,7 +248,7 @@ margin-top: 10px;
  font-family: FuturaFuturisBlackC;
  font-style: normal;
  font-weight: 900;
- font-size: 72px;
+ font-size: 6vw;
  color: #FFCD00;
  margin-top: -854px;
  margin-left: 48%;
@@ -208,7 +259,7 @@ margin-top: 10px;
   font-family: FTX45;
 font-style: normal;
 font-weight: normal;
-font-size: 80px;
+font-size: 6vw;
 color: #FFCD00;
 margin-left: 48%;
 margin-top: 10px;
@@ -218,7 +269,7 @@ line-height: 65px;
   display: flex;
   justify-content: space-between;
   margin-top: 110%;
-  opacity: 1;
+  opacity: 0.3;
 }
 .contain:hover {
   opacity: 1;
@@ -304,7 +355,7 @@ animation: bladee 2s steps(1) infinite;
   font-family: FuturaFuturisBlackC;
 font-style: normal;
 font-weight: 900;
-font-size: 72px;
+font-size: 6vw;
 color: #FFCD00;
 margin-bottom: 0px;
 }
@@ -314,7 +365,7 @@ margin-bottom: 0px;
   font-family: FTX45;
 font-style: normal;
 font-weight: normal;
-font-size: 80px;
+font-size: 6vw;
 color: #FFCD00;
 line-height: 65px;
 margin-top: 10px;
@@ -344,7 +395,7 @@ padding-bottom: 200px;
   font-family: FuturaFuturisBlackC;
 font-style: normal;
 font-weight: 900;
-font-size: 72px;
+font-size: 6vw;
 margin-top: -20px;
 margin-left: 11.5%;
 color: #FFCD00;}
@@ -354,7 +405,7 @@ color: #FFCD00;}
   font-family: FTX45;
 font-style: normal;
 font-weight: normal;
-font-size: 80px;
+font-size: 6vw;
 color: #FFCD00;
 line-height: 74px;
 margin-left: 11.5%;
@@ -424,6 +475,55 @@ width: 100%;
 .bag {
     left: 46%;
   }
+  .aaaa2 {
+  bottom: 15.19%;
+  }
+  .aaaa3 {
+  top: 85.4%;
+  }
+  .sort p {
+  line-height: 73px;
+  margin-top: 73px;
+  }
+  .bladestext p {
+  line-height: 51px;
+  margin-top: 12px;
+  }
+  .deskbowltext p {
+    line-height: 51px;
+    margin-top: 12px;
+  }
+  .deskbowltext {
+    top: 31.1%;
+  }
+  .sprite {
+    height: 200px;
+    width: 226.6px;
+    animation: mobilesprite 0.7s steps(1) alternate infinite;
+  }
+  .sprite2 {
+    height: 200px;
+    width: 226.6px;
+    animation: mobilesprite 0.7s steps(1) alternate infinite;
+  }
+  .sprite3 {
+    height: 200px;
+    width: 226.6px;
+    animation: mobilesprite 0.7s steps(1) alternate infinite;
+  }
+  .sprite4 {
+    left: 15%;
+    height: 200px;
+    width: 226.6px;
+    animation: mobilesprite 0.7s steps(1) alternate infinite;
+  }
+}
+@keyframes mobilesprite {
+  0% {background-position: 0px;}
+  20% {background-position: -226.6px;}
+  40% {background-position: -453.2px;}
+  60% {background-position: -679.8px;}
+  80% {background-position: -906.4px;}
 }
 @media only screen and (min-device-width: 1310px) and (max-device-width: 1440px) {
 .main img {
@@ -444,10 +544,10 @@ left: 38.8%;
 .kitchen h1 {
   margin-left: 10px;
   padding-top: 3px;
-  font-size: 30px;
+  font-size: 6vw;
 }
 .kitchen p {
-  font-size: 30px;
+  font-size: 6vw;
   margin-top: -16px;
   margin-left: 10px;
 }
@@ -486,13 +586,13 @@ z-index: 100
 .bowl h1 {
   margin-left: 21px;
   margin-top: -320px;
-  font-size: 30px;
+  font-size: 6vw;
   width: 300px;
 }
 .bowl p {
   margin-left: 21px;
   margin-top: -7px;
-  font-size: 30px;
+  font-size: 6vw;
   width: 280px;
   line-height: 28px;
 }
@@ -568,7 +668,7 @@ margin-top: 158%;
 }
 .deskbowl {
   width: 75%;
-  margin-left: calc(50% - 480px);
+  margin-left: 13%;
 }
 .deskbowltext {
   position: absolute;
@@ -579,7 +679,7 @@ margin-top: 158%;
  font-family: FuturaFuturisBlackC;
  font-style: normal;
  font-weight: 900;
- font-size: 72px;
+ font-size: 6vw;
  color: #FFCD00;
  margin-bottom: 0px;
 }
@@ -587,10 +687,10 @@ margin-top: 158%;
   font-family: FTX45;
 font-style: normal;
 font-weight: normal;
-font-size: 80px;
+font-size: 6vw;
 color: #FFCD00;
 line-height: 65px;
-width: 600px;
+width: 44vw;
 margin-top: 10px;
 }
     </style>
@@ -599,19 +699,10 @@ margin-top: 10px;
 
   <body>
 <div class="sprite">
-  <div class="four">
-    <img src="images/sprite.svg" alt="">
-  </div>
 </div>
 <div class="sprite2">
-  <div class="three">
-    <img src="images/sprite2.svg" alt="">
-  </div>
 </div>
 <div class="sprite3">
-  <div class="two">
-    <img src="images/sprite3.svg" alt="">
-  </div>
 </div>
 <div class="brizgcont">
   <div class="brizg">
@@ -796,19 +887,14 @@ margin-top: 10px;
     </div>
 
     <div class="candyline">
-
     </div>
 
 <div class="contain">
-
-
     <div class="blades">
-
       <div class="blade-right">
       </div>
       <div class="blade-leftt">
       </div>
-
     </div>
 
     <div class="bladestwo">
@@ -836,99 +922,20 @@ margin-top: 10px;
       <h1>step 4</h1>
       <p>вулканическая сортировка</p>
       <div class="line1">
-        <div class="aaaa">
-        </div>
-        <div class="squares">
-          <div class="square">
-          </div>
-          <div class="square2">
-          </div>
-          <div class="square3">
-          </div>
-          <div class="square4">
-          </div>
-          <div class="square5">
-          </div>
-          <div class="square6">
-          </div>
-          <div class="square7">
-          </div>
-          <div class="square8">
-          </div>
-          <div class="square9">
-          </div>
-          <div class="square10">
-          </div>
-          <div class="square11">
-          </div>
-          <div class="square12">
-          </div>
-        </div>
       </div>
       <div class="line2">
-        <div class="aaaa2">
-        </div>
-        <div class="squares2">
-          <div class="square">
-          </div>
-          <div class="square2">
-          </div>
-          <div class="square3">
-          </div>
-          <div class="square4">
-          </div>
-          <div class="square5">
-          </div>
-          <div class="square6">
-          </div>
-          <div class="square7">
-          </div>
-          <div class="square8">
-          </div>
-          <div class="square9">
-          </div>
-          <div class="square10">
-          </div>
-          <div class="square11">
-          </div>
-          <div class="square12">
-          </div>
-        </div>
       </div>
       <div class="line3">
-        <div class="aaaa3">
-        </div>
-        <div class="squares3">
-          <div class="square">
-          </div>
-          <div class="square2">
-          </div>
-          <div class="square3">
-          </div>
-          <div class="square4">
-          </div>
-          <div class="square5">
-          </div>
-          <div class="square6">
-          </div>
-          <div class="square7">
-          </div>
-          <div class="square8">
-          </div>
-          <div class="square9">
-          </div>
-          <div class="square10">
-          </div>
-          <div class="square11">
-          </div>
-          <div class="square12">
-          </div>
-        </div>
       </div>
     </div>
-
+    <div class="aaaa2">
+    </div>
+    <div class="aaaa">
+    </div>
+    <div class="aaaa3">
+    </div>
     <div class="umirayu">
-    <!-- <div class="squares">
+    <div class="squares">
       <div class="square">
       </div>
       <div class="square2">
@@ -953,8 +960,8 @@ margin-top: 10px;
       </div>
       <div class="square12">
       </div>
-    </div> -->
-    <!-- <div class="squares2">
+    </div>
+    <div class="squares2">
       <div class="square">
       </div>
       <div class="square2">
@@ -979,8 +986,8 @@ margin-top: 10px;
       </div>
       <div class="square12">
       </div>
-    </div> -->
-    <!-- <div class="squares3">
+    </div>
+    <div class="squares3">
       <div class="square">
       </div>
       <div class="square2">
@@ -1005,7 +1012,7 @@ margin-top: 10px;
       </div>
       <div class="square12">
       </div>
-    </div> -->
+    </div>
     </div>
 
 
@@ -1017,9 +1024,6 @@ margin-top: 10px;
 <div class="bottom">
 </div>
 <div class="sprite4">
-  <div class="one">
-    <img src="images/sprite4.svg" alt="">
-  </div>
 </div>
 
 <div class="bleach">

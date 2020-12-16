@@ -177,9 +177,32 @@ animation-delay: 2s;}
     .button:hover + .button2 {
       background-color: red;
     }
+    .sprite {
+      position: absolute;
+      top: 30%;
+      width: 289px;
+      height: 255px;
+      left: 13%;
+      background: url('images/sprite.svg');
+      background-position: -20%;
+      /* animation: ohh 0.7s steps(1) alternate infinite; */
+    }
+    @keyframes ohh {
+      0% {background-position: 0px;}
+      20% {background-position: -20%;}
+      40% {background-position: -40%;}
+      60% {background-position: -60%;}
+      80% {background-position: -80%;}
+    }
+  body {
+    background-color: black;
+  }
     </style>
   </head>
   <body>
+    <div class="sprite">
+
+    </div>
     <div class="button">
     </div>
     <div class="button2">

@@ -185,9 +185,9 @@ background-position: 0 0;
 z-index: 200;
 animation: ba 30s infinite;
 background-size: 100% 100%;
-top: 82.98%;
-right: 26.2%;
-left: 69.3%;
+top: 0%;
+right: 26.9%;
+left: 64.7%;
 opacity: 1;
 }
 .aaaa2 {
@@ -198,9 +198,9 @@ background-position: 0 0;
 z-index: 200;
 animation: ba 30s infinite;
 background-size: 100% 100%;
-bottom: 15.41%;
-right: 26.2%;
-left: 69.3%;
+top: 0%;
+right: 43.9%;
+left: 42.7%;
 opacity: 1;
 }
 .aaaa3 {
@@ -211,43 +211,50 @@ background-position: 0 0;
 z-index: 200;
 animation: ba 30s infinite;
 background-size: 100% 100%;
-right: 26.2%;
-left: 69.3%;
-top: 84.98%;
+right: 36.2%;
+left: 52.5%;
+top: 0%;
 opacity: 1;
 }
-.sort:hover ~ .aaaa {
+.sort:hover .aaaa {
   opacity: 0.3;
 }
-.sort:hover ~ .aaaa2 {
+.sort:hover .aaaa2 {
   opacity: 0.3;
 }
-.sort:hover ~ .aaaa3 {
+.sort:hover .aaaa3 {
   opacity: 0.3;
 }
-.sort:hover ~ .umirayu {
+.sort:hover .squares {
   opacity: 1;
 }
-.umirayu {
-  opacity: 0;
+.sort:hover .squares2 {
+  opacity: 1;
+}
+.sort:hover .squares3 {
+  opacity: 1;
 }
 .squares3 {
   position: absolute;
-  left: 30.95%;
-  opacity: 1;
-  top: 84.98%;
+  left: -42%;
+  opacity: 0;
+  top: 0%;
+  height: 3.1vw;
+
 }
 .squares2 {
   position: absolute;
-  left: 30.95%;
-  top: 84.13%;
-  opacity: 1;
+  left: -72%;
+  top: 0%;
+  opacity: 0;
+  height: 3.1vw;
 }
 .squares {
   position: absolute;
-  left: 30.95%;
-  top: 82.98%;
-  opacity: 1;
+  left: -5.6%;
+  top: 0%;
+  opacity: 0;
+  height: 3.1vw;
 }
 .square {
   position: absolute;
@@ -399,25 +406,25 @@ background-position: 0 0;
 z-index: 200;
 animation: ba 2.5s infinite;
 background-size: 100% 100%;
-top: 38.4%;
-bottom: 58.59%;
-left:  49.5%;
-right: 45.9%;
+top: 65.9%;
+bottom: 2%;
+left:  48.7%;
+right: 45.2%;
 opacity: 1;
 }
 .candy {
   position: absolute;
-  top: 38.4%;
-  bottom: 58.59%;
-  left:  49.5%;
-  right: 45.9%;
+  top: 65.9%;
+  bottom: 2%;
+  left:  48.7%;
+  right: 45.2%;
   overflow: hidden;
+  opacity: 0;
+}
+.deskbowl img:hover ~ .candy {
   opacity: 1;
 }
-.bowl:hover ~ .candy {
-  opacity: 1;
-}
-.deskbowl:hover ~ .candyline {
+.deskbowl img:hover ~ .candyline {
   opacity: 0.3;
 }
 .candy1 {

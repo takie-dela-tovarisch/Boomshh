@@ -110,8 +110,9 @@ margin-top: 11%;
 }
 .banana {
   position: absolute;
-  top: 263px;
-  left: 100%;
+  top: 44%;
+    left:  100%;
+  transform: rotate(19deg);
   animation: banana 2s linear infinite;
 }
 .banana img {
@@ -120,8 +121,8 @@ height: 71.99px;
 }
 .banana2 {
   position: absolute;
-  top: 263px;
-  left: 100%;
+  top: 46%;
+  left: 102%;
   animation: banana2 3s linear infinite;
 }
 .banana2 img {
@@ -130,7 +131,7 @@ height: 57.41px;
 }
 .banana3 {
   position: absolute;
-  top: 263px;
+  top: 46%;
   left: 100%;
   animation: banana2 3s linear infinite;
   animation-delay: 1.5s;
@@ -141,46 +142,60 @@ height: 57.41px;
 }
 .lemon {
 position: absolute;
-top: 263px;
+top: 47%;
 left: 100%;
-animation: lemon 3s linear infinite;}
+animation: lemon 3s linear infinite;
+animation-delay: 0.3s;
+}
 .lemon img {
   width: 57.97px;
   height: 45.38px;
 }
 .lemon2 {
 position: absolute;
-top: 263px;
+top: 46%;
 left: 100%;
 animation: lemon2 3s linear infinite;
-animation-delay: 2s;}
+animation-delay: 2s;
+}
 .lemon2 img {
   width: 37.87px;
   height: 40.66px;
 }
-@keyframes lemon {
-0% {left: 100%; top: 263px; transform: rotate(0deg);
+.lemon3 {
+position: absolute;
+top: 47%;
+left: 100%;
+animation: lemon 3s linear infinite;
+animation-delay: 2s;
 }
-50% {left: 16%; top: 263px; transform: rotate(0deg)}
-100% {left: 16%; top: 600px; transform: rotate(-90deg)}
+.lemon3 img {
+  width: 57.97px;
+  height: 45.38px;
+}
+@keyframes lemon {
+0% {left: 100%; top: 47%; transform: rotate(0deg);
+}
+50% {left: 16%; top: 47%; transform: rotate(0deg)}
+100% {left: 16%; top: 100%; transform: rotate(-90deg)}
 }
 @keyframes lemon2 {
-0% {left: 100%; top: 263px; transform: rotate(180deg);
+0% {left: 100%; top: 46%; transform: rotate(180deg);
 }
-40% {left: 16%; top: 263px; transform: rotate(90deg)}
-100% {left: 16%; top: 600px; transform: rotate(-90deg)}
+40% {left: 16%; top: 46%; transform: rotate(90deg)}
+100% {left: 16%; top: 100%; transform: rotate(-90deg)}
 }
 @keyframes banana {
-0% {left: 100%; top: 263px; transform: rotate(0deg);
+0% {left: 100%; top: 44%; transform: rotate(19deg);
 }
-60% {left: 16%; top: 263px; transform: rotate(0deg)}
-100% {left: 16%; top: 600px; transform: rotate(90deg)}
+60% {left: 16%; top: 44%; transform: rotate(19deg)}
+100% {left: 16%; top: 100%; transform: rotate(-100deg)}
 }
 @keyframes banana2 {
-0% {left: 102%; top: 263px; transform: rotate(90deg);
+0% {left: 102%; top: 46%; transform: rotate(180deg);
 }
-50% {left: 16%; top: 263px; transform: rotate(90deg)}
-100% {left: 16%; top: 600px; transform: rotate(0deg)}
+50% {left: 16%; top: 46%; transform: rotate(180deg)}
+100% {left: 16%; top: 102%; transform: rotate(0deg)}
 
 }
 /* .wrap {
@@ -390,6 +405,7 @@ top: 42px;
 margin-top: 90%;
 padding-bottom: 200px;
 }
+
 .sort h1 {
   position: absolute;
   font-family: FuturaFuturisBlackC;
@@ -849,6 +865,9 @@ margin-top: 10px;
   <div class="lemon2">
   <img src="images/lemon.svg" alt="">
   </div>
+  <div class="lemon3">
+    <img src="images/lemon.svg" alt="">
+  </div>
   </div>
 
     <div class="kitchenline">
@@ -867,27 +886,29 @@ margin-top: 10px;
 
       <div class="deskbowl">
           <img src="images/fifi.svg" alt="">
+          <div class="candy">
+      <div class="candy1">
+      <img src="images/candy.svg" alt="">
+      </div>
+      <div class="candy2">
+      <img src="images/candy.svg" alt="">
+      </div>
+      <div class="candy3">
+      <img src="images/candy.svg" alt="">
+      </div>
+      <div class="candy4">
+      <img src="images/candy.svg" alt="">
+      </div>
+          </div>
+          <div class="candyline">
+          </div>
       </div>
 
 
 
-    <div class="candy">
-<div class="candy1">
-<img src="images/candy.svg" alt="">
-</div>
-<div class="candy2">
-<img src="images/candy.svg" alt="">
-</div>
-<div class="candy3">
-<img src="images/candy.svg" alt="">
-</div>
-<div class="candy4">
-<img src="images/candy.svg" alt="">
-</div>
-    </div>
 
-    <div class="candyline">
-    </div>
+
+
 
 <div class="contain">
     <div class="blades">
@@ -922,20 +943,101 @@ margin-top: 10px;
       <h1>step 4</h1>
       <p>вулканическая сортировка</p>
       <div class="line1">
+        <div class="squares">
+          <div class="square">
+          </div>
+          <div class="square2">
+          </div>
+          <div class="square3">
+          </div>
+          <div class="square4">
+          </div>
+          <div class="square5">
+          </div>
+          <div class="square6">
+          </div>
+          <div class="square7">
+          </div>
+          <div class="square8">
+          </div>
+          <div class="square9">
+          </div>
+          <div class="square10">
+          </div>
+          <div class="square11">
+          </div>
+          <div class="square12">
+          </div>
+        </div>
+        <div class="aaaa">
+        </div>
       </div>
       <div class="line2">
+        <div class="squares2">
+          <div class="square">
+          </div>
+          <div class="square2">
+          </div>
+          <div class="square3">
+          </div>
+          <div class="square4">
+          </div>
+          <div class="square5">
+          </div>
+          <div class="square6">
+          </div>
+          <div class="square7">
+          </div>
+          <div class="square8">
+          </div>
+          <div class="square9">
+          </div>
+          <div class="square10">
+          </div>
+          <div class="square11">
+          </div>
+          <div class="square12">
+          </div>
+        </div>
+        <div class="aaaa2">
+        </div>
       </div>
       <div class="line3">
+        <div class="squares3">
+          <div class="square">
+          </div>
+          <div class="square2">
+          </div>
+          <div class="square3">
+          </div>
+          <div class="square4">
+          </div>
+          <div class="square5">
+          </div>
+          <div class="square6">
+          </div>
+          <div class="square7">
+          </div>
+          <div class="square8">
+          </div>
+          <div class="square9">
+          </div>
+          <div class="square10">
+          </div>
+          <div class="square11">
+          </div>
+          <div class="square12">
+          </div>
+        </div>
+        <div class="aaaa3">
+        </div>
       </div>
     </div>
-    <div class="aaaa2">
-    </div>
-    <div class="aaaa">
-    </div>
-    <div class="aaaa3">
-    </div>
+
+
+
     <div class="umirayu">
-    <div class="squares">
+    <!-- <div class="squares">
       <div class="square">
       </div>
       <div class="square2">
@@ -960,8 +1062,8 @@ margin-top: 10px;
       </div>
       <div class="square12">
       </div>
-    </div>
-    <div class="squares2">
+    </div> -->
+    <!-- <div class="squares2">
       <div class="square">
       </div>
       <div class="square2">
@@ -986,8 +1088,8 @@ margin-top: 10px;
       </div>
       <div class="square12">
       </div>
-    </div>
-    <div class="squares3">
+    </div> -->
+    <!-- <div class="squares3">
       <div class="square">
       </div>
       <div class="square2">
@@ -1012,7 +1114,7 @@ margin-top: 10px;
       </div>
       <div class="square12">
       </div>
-    </div>
+    </div> -->
     </div>
 
 

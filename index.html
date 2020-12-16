@@ -22,11 +22,102 @@ position: absolute;
 left: 0;
 top: 0;
 right: 0;
-background: url('images/ipad.jpg') no-repeat;
+/* background: url('images/ipad.jpg') no-repeat; */
 height: 100%;
 display: block;
 opacity: .2;
 }
+.bleach {
+  position: absolute;
+  top: 0.3%;
+  width: 596px;
+  height: 530px;
+  overflow: hidden;
+  left: 9%;
+  z-index: 200;
+}
+.name {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: uhh 0.7s steps(1) alternate infinite;
+}
+@keyframes uhh {
+  0% {left: 0px;}
+  20% {left: -596px;}
+  40% {left: -1191px;}
+  60% {left: -1787px;}
+  80% {left: -2383px;}
+}
+
+.bag {
+  position: absolute;
+  top: 0.2%;
+  width: 548px;
+  height: 530px;
+  overflow: hidden;
+  right: 0%;
+}
+.name2 {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: uhh 0.7s steps(1) alternate infinite;
+}
+@keyframes uhh {
+  0% {left: 0px;}
+  20% {left: -596px;}
+  40% {left: -1191px;}
+  60% {left: -1787px;}
+  80% {left: -2383px;}
+}
+
+.sdohlacontparent {
+  position: absolute;
+  top: 68.5%;
+  width: 33.9%;
+  height: 43vw;
+  left: 5%;
+}
+.sdohlacont {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url('images/sdohla.svg') no-repeat 0 0%;
+  background-size: cover;
+  animation: new 0.6s steps(3) alternate infinite;}
+.sdohlacont3 {
+    position: absolute;
+    top: 19.5%;
+    width: 33.9vw;
+    height: 43.125vw;
+    overflow: hidden;
+    right: 39%;
+    transform: rotate(90deg);
+    background: url('images/sdohla.svg') no-repeat 0 0%;
+    background-size: cover;
+    animation: new 0.5s steps(3) alternate infinite;
+  }
+
+.sdohlacont2 {
+    position: absolute;
+    top: 50.5%;
+    width: 33.9vw;
+    height: 43.125vw;
+    overflow: hidden;
+    right: 1%;
+    transform: rotate(180deg);
+    background: url('images/sdohla.svg') no-repeat 0 0%;
+    background-size: cover;
+    animation: new 0.5s steps(3) alternate infinite;
+  }
+
+@keyframes new {
+  from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+  }
 .main img {
   width: 100%;
 margin-left: 0px;
@@ -76,6 +167,7 @@ margin-top: 11%;
   height: 255px;
   overflow: hidden;
   right: 25%;
+  z-index: 30;
   animation: ohh 0.7s steps(1) alternate infinite;
 }
 .sprite4 {
@@ -88,6 +180,33 @@ margin-top: 11%;
   overflow: hidden;
   left: 11%;
   animation: ohh 0.7s steps(1) alternate infinite;
+}
+.kitchenline {
+  position: absolute;
+background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
+height: 4.66vw;
+  bottom: 82.85%;
+  left: 22%;
+  right: 29.6%;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  animation: be 3s infinite;
+  animation-direction: reverse;
+  z-index: 20;
+  opacity: 1;
+}
+.kitchenline2 {
+  position: absolute;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+background-position: 0 0;
+z-index: 200;
+animation: ba 10s infinite;
+background-size: 100% 100%;
+top: 16.46%;
+left: 17.5%;
+right: 77.97%;
+bottom: 80.1%;
+opacity: 1;
 }
 .kitchentwo {
   position: absolute;
@@ -233,6 +352,71 @@ line-height: 65px;
 margin-left: 24px;
 margin-top: 10px;
    }
+
+   .candyline {
+     position: absolute;
+   background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+   background-position: 0 0;
+   z-index: 200;
+   animation: ba 2.5s infinite;
+   background-size: 100% 100%;
+   top: 65.9%;
+   bottom: 2%;
+   left:  48.7%;
+   right: 45.2%;
+   opacity: 1;
+   }
+   .candy {
+     position: absolute;
+     top: 65.9%;
+     bottom: 2%;
+     left:  48.7%;
+     right: 45.2%;
+     overflow: hidden;
+     opacity: 0;
+   }
+
+   .deskbowl img:hover ~ .candy {
+     opacity: 1;
+   }
+   .deskbowl img:hover ~ .candyline {
+     opacity: 0.3;
+   }
+   .candy1 {
+     position: absolute;
+     top: -40%;
+     animation: candybig 1s linear infinite;
+   }
+   .candy4 {
+     position: absolute;
+     top: -40%;
+     left: 54%;
+     animation: candybig 1.2s linear infinite;
+   }
+   .candy2 {
+     position: absolute;
+     top: -40%;
+     left: 54%;
+     animation: candybig 1.5s linear infinite;
+     animation-delay: 1s;
+   }
+   .candy3 {
+     position: absolute;
+     top: -40%;
+     left: 0%;
+     animation: candybig 1.8s linear infinite;
+     animation-delay: 0.3s;
+   }
+   @keyframes candybig {
+   0% {
+     top: -40%
+   }
+   100% {
+     top: 100%;
+   }
+   }
+
+
 .water {
   display: none;
   margin: 0px;
@@ -435,23 +619,143 @@ margin-top: 76px;
   height: 3.1vw;
   overflow: hidden;
 }
+.response2 {
+    position: absolute;
+    height: 100%;
+    width: 6.84vw;
+    right: 18.6%;
+    transform: rotate(180deg);
+    opacity: 0;
+}
+.response {
+    position: absolute;
+    height: 100%;
+    width: 6.84vw;
+    left: 56.4%;
+    opacity: 0;
+}
+
+.response3 {
+    position: absolute;
+    height: 100%;
+    width: 6.84vw;
+    left: 29.2%;
+    opacity: 0;
+
+}
+.response4 {
+  position: absolute;
+  height: 100%;
+  width: 6.84vw;
+  right: 30.4%;
+  transform: rotate(180deg);
+  opacity: 0;
+
+}
+.response5 {
+  position: absolute;
+  height: 100%;
+  width: 6.84vw;
+  left: 41.2%;
+  opacity: 0;
+
+}
+.response6 {
+  position: absolute;
+  height: 100%;
+  width: 6.84vw;
+  right: 25%;
+  transform: rotate(180deg);
+  opacity: 0;
+
+}
+.squaree {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 0;
+  background-color: #FFCD00;
+  animation: step1 1s alternate infinite;
+}
+@keyframes step1 {
+  0% {right: 0%;}
+  100% {right: 2.27vw;}
+}
+.squaree2 {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 1.13vw;
+  background-color: #FFCD00;
+  animation: step2 1s alternate infinite;
+}
+@keyframes step2 {
+  0% {right: 1.13vw;}
+  100% {right: 4.52vw;}
+}
+.squaree3 {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 0%;
+  top: 1.1vw;
+  background-color: #FFCD00;
+  animation: step3 1s alternate infinite;
+}
+@keyframes step3 {
+  0% {right: 0%;}
+  100% {right: 3.39vw;}
+}
+.squaree4 {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 1.13vw;
+  top: 1.1vw;
+  background-color: #FFCD00;
+  animation: step4 1s alternate infinite;
+}
+@keyframes step4 {
+  0% {right: 1.13vw;}
+  100% {right: 5.65vw;}
+}
+.squaree5 {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 0%;
+  top: 2.2vw;
+  background-color: #FFCD00;
+  animation: step5 1s alternate infinite;
+}
+@keyframes step5 {
+  0% {right: 0%;}
+  100% {right: 2.27vw;}
+}
+.squaree6 {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 1.13vw;
+  top: 2.2vw;
+  background-color: #FFCD00;
+  animation: step6 1s alternate infinite;
+}
+@keyframes step6 {
+  0% {right: 1.13vw;}
+  100% {right: 4.52vw;}
+}
 .line2 {
   position: absolute;
   left: 55%;
-  height: 38px;
   background-color: #866AE1;
   top: 99px;
   height: 3.1vw;
   right: 11.5%;
+  overflow: hidden;
 }
 .line3 {
   position: absolute;
   left: 48%;
-  height: 38px;
   background-color: #866AE1;
   right: 11.5%;
   height: 3.1vw;
   top: 172px;
+  overflow: hidden;
 }
 .endgame {
   margin-top: 85%;
@@ -470,16 +774,29 @@ width: 100%;
 }
 .bottom {
   position: absolute;
-  bottom: 1%;
+  background: url('images/bottomsprite.svg');
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  animation: mew 0.6s steps(4) alternate infinite;
+}
+.parent {
+  position: absolute;
   width: 90%;
   height: 54vw;
+  bottom: 1%;
   left: 5%;
-  background: url('images/bottom.svg');
-  background-size: cover;
+}
+@keyframes mew {
+  from { background-position: 0 0; }
+    to { background-position: 100% 0; }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 .bleach {
   left: 9%;
+  top: 0%;
 }
 .name {
   width: 50%;
@@ -489,13 +806,7 @@ width: 100%;
     left: 34.8%;
 }
 .bag {
-    left: 46%;
-  }
-  .aaaa2 {
-  bottom: 15.19%;
-  }
-  .aaaa3 {
-  top: 85.4%;
+    right: 0%;
   }
   .sort p {
   line-height: 73px;
@@ -533,6 +844,15 @@ width: 100%;
     width: 226.6px;
     animation: mobilesprite 0.7s steps(1) alternate infinite;
   }
+  .q {
+    right: 93.08%
+  }
+  .u {
+    left: 93%;
+  }
+  .contain {
+    margin-top: 120%;
+}
 }
 @keyframes mobilesprite {
   0% {background-position: 0px;}
@@ -661,22 +981,47 @@ padding-top: 30px;
 .brizgcont {
   position: absolute;
   top: 46.5%;
-  width: 615px;
-  height: 678px;
+  width: 48vw;
+  height: 52.9vw;
   overflow: hidden;
   left: 81px;
+  background: url('images/brizg.svg') no-repeat 0 0%;
+  background-size: cover;
+  animation: dhh 0.5s steps(3) alternate infinite;
 }
 @keyframes dhh {
-  0% {left: 0px;}
-  25% {left: -615px;}
-  50% {left: -1230px;}
-  75% {left: -1845px;}
+  from { background-position: 0 0; }
+    to { background-position: 100% 0; }
 }
-.brizg {
+
+.littlecont {
   position: absolute;
-top: 0px;
-left: 0px;
-animation: dhh 0.6s steps(1) alternate infinite;
+  top: 74.5%;
+  width: 20.2vw;
+  height: 25.9vw;
+  overflow: hidden;
+  left: 43%;
+  transform: rotate(180deg);
+  background: url('images/little.svg') no-repeat 0 0%;
+  background-size: cover;
+  animation: pew 0.6s steps(3) alternate infinite;
+
+}
+@keyframes pew {
+  from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+.littlecont2 {
+  position: absolute;
+  top: 27.55%;
+  width: 20.2vw;
+  height: 25.9vw;
+  overflow: hidden;
+  left: 16%;
+  transform: rotate(180deg);
+  background: url('images/little.svg') no-repeat 0 0%;
+  background-size: cover;
+  animation: pew 0.6s steps(3) alternate infinite;
 }
 .deskbowl {
 position: relative;
@@ -721,34 +1066,20 @@ margin-top: 10px;
 <div class="sprite3">
 </div>
 <div class="brizgcont">
-  <div class="brizg">
-    <img src="images/brizg.svg" alt="">
+</div>
+<div class="sdohlacontparent">
+  <div class="sdohlacont">
   </div>
 </div>
-<div class="sdohlacont">
-  <div class="sdohla">
-    <img src="images/sdohla.svg" alt="">
-  </div>
-</div>
+
+
 <div class="sdohlacont2">
-  <div class="sdohla">
-    <img src="images/sdohla.svg" alt="">
-  </div>
 </div>
 <div class="sdohlacont3">
-  <div class="sdohla">
-    <img src="images/sdohla.svg" alt="">
-  </div>
 </div>
 <div class="littlecont">
-  <div class="little">
-    <img src="images/little.svg" alt="">
-  </div>
 </div>
 <div class="littlecont2">
-  <div class="little">
-    <img src="images/little.svg" alt="">
-  </div>
 </div>
 
 <div class="a">
@@ -943,91 +1274,100 @@ margin-top: 10px;
       <h1>step 4</h1>
       <p>вулканическая сортировка</p>
       <div class="line1">
-        <div class="squares">
-          <div class="square">
-          </div>
-          <div class="square2">
-          </div>
-          <div class="square3">
-          </div>
-          <div class="square4">
-          </div>
-          <div class="square5">
-          </div>
-          <div class="square6">
-          </div>
-          <div class="square7">
-          </div>
-          <div class="square8">
-          </div>
-          <div class="square9">
-          </div>
-          <div class="square10">
-          </div>
-          <div class="square11">
-          </div>
-          <div class="square12">
-          </div>
-        </div>
+<div class="response">
+<div class="squaree">
+</div>
+<div class="squaree2">
+</div>
+<div class="squaree3">
+</div>
+<div class="squaree4">
+</div>
+<div class="squaree5">
+</div>
+<div class="squaree6">
+</div>
+</div>
+
+<div class="response2">
+<div class="squaree">
+</div>
+<div class="squaree2">
+</div>
+<div class="squaree3">
+</div>
+<div class="squaree4">
+</div>
+<div class="squaree5">
+</div>
+<div class="squaree6">
+</div>
+</div>
         <div class="aaaa">
         </div>
       </div>
       <div class="line2">
-        <div class="squares2">
-          <div class="square">
-          </div>
-          <div class="square2">
-          </div>
-          <div class="square3">
-          </div>
-          <div class="square4">
-          </div>
-          <div class="square5">
-          </div>
-          <div class="square6">
-          </div>
-          <div class="square7">
-          </div>
-          <div class="square8">
-          </div>
-          <div class="square9">
-          </div>
-          <div class="square10">
-          </div>
-          <div class="square11">
-          </div>
-          <div class="square12">
-          </div>
+        <div class="response3">
+        <div class="squaree">
+        </div>
+        <div class="squaree2">
+        </div>
+        <div class="squaree3">
+        </div>
+        <div class="squaree4">
+        </div>
+        <div class="squaree5">
+        </div>
+        <div class="squaree6">
+        </div>
+        </div>
+        <div class="response4">
+        <div class="squaree">
+        </div>
+        <div class="squaree2">
+        </div>
+        <div class="squaree3">
+        </div>
+        <div class="squaree4">
+        </div>
+        <div class="squaree5">
+        </div>
+        <div class="squaree6">
+        </div>
         </div>
         <div class="aaaa2">
         </div>
       </div>
+
       <div class="line3">
-        <div class="squares3">
-          <div class="square">
-          </div>
-          <div class="square2">
-          </div>
-          <div class="square3">
-          </div>
-          <div class="square4">
-          </div>
-          <div class="square5">
-          </div>
-          <div class="square6">
-          </div>
-          <div class="square7">
-          </div>
-          <div class="square8">
-          </div>
-          <div class="square9">
-          </div>
-          <div class="square10">
-          </div>
-          <div class="square11">
-          </div>
-          <div class="square12">
-          </div>
+        <div class="response5">
+        <div class="squaree">
+        </div>
+        <div class="squaree2">
+        </div>
+        <div class="squaree3">
+        </div>
+        <div class="squaree4">
+        </div>
+        <div class="squaree5">
+        </div>
+        <div class="squaree6">
+        </div>
+        </div>
+
+        <div class="response6">
+        <div class="squaree">
+        </div>
+        <div class="squaree2">
+        </div>
+        <div class="squaree3">
+        </div>
+        <div class="squaree4">
+        </div>
+        <div class="squaree5">
+        </div>
+        <div class="squaree6">
+        </div>
         </div>
         <div class="aaaa3">
         </div>
@@ -1122,9 +1462,11 @@ margin-top: 10px;
     <img src="images/bonap.svg" alt="">
     </div>
 
-
-<div class="bottom">
+<div class="parent">
+  <div class="bottom">
+  </div>
 </div>
+
 <div class="sprite4">
 </div>
 

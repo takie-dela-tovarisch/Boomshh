@@ -109,55 +109,52 @@ margin-top: 11%;
 .sprite {
   position: absolute;
   top: 80%;
-  width: 289px;
-  height: 255px;
+  width: 22.58vw;
+  height: 19.92vw;
   left: 14%;
   background: url("../images/sprite.svg");
   background-position: 0px;
   background-size: cover;
-  animation: ohh 0.7s steps(1) alternate infinite;
+  animation: cringe 0.7s steps(4) alternate infinite;
 }
-@keyframes ohh {
-  0% {background-position: 0px;}
-  20% {background-position: -289px;}
-  40% {background-position: -578px;}
-  60% {background-position: -867px;}
-  80% {background-position: -1156px;}
+@keyframes cringe {
+  from { background-position: 0 0; }
+    to { background-position: 100% 0; }
 }
 .sprite2 {
   position: absolute;
   background: url("../images/sprite2.svg");
-  top: 58.5%;
-  width: 289px;
-  height: 255px;
+  top: 58.3%;
+  width: 22.58vw;
+  height: 19.92vw;
   overflow: hidden;
   background-size: cover;
-  left: 30%;
+  left: 29%;
   background-size: cover;
-  animation: ohh 0.7s steps(1) alternate infinite;
+  animation: cringe 0.7s steps(4) alternate infinite;
 }
 .sprite3 {
   position: absolute;
   background: url("../images/sprite3.svg");
   background-size: cover;
   top: 29.4%;
-  width: 289px;
-  height: 255px;
+  width: 22.58vw;
+  height: 19.92vw;
   overflow: hidden;
   right: 25%;
   z-index: 30;
-  animation: ohh 0.7s steps(1) alternate infinite;
+  animation: cringe 0.6s steps(4) alternate infinite;
 }
 .sprite4 {
   position: absolute;
   background: url("../images/sprite4.svg");
   top: 11%;
-  width: 289px;
+  width: 22.58vw;
+  height: 19.92vw;
   background-size: cover;
-  height: 255px;
   overflow: hidden;
   left: 11%;
-  animation: ohh 0.7s steps(1) alternate infinite;
+  animation: cringe 0.7s steps(4) alternate infinite;
 }
 .kitchenline {
   position: absolute;

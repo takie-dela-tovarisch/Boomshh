@@ -5,3 +5,793 @@
     font-family: FTX45;
     src: url(fonts/FTX45.otf);
 }
+.bleach {
+  position: absolute;
+  top: 0.3%;
+  width: 596px;
+  height: 530px;
+  overflow: hidden;
+  left: 9%;
+  z-index: 200;
+}
+.name {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: uhh 0.7s steps(1) alternate infinite;
+}
+@keyframes uhh {
+  0% {left: 0px;}
+  20% {left: -596px;}
+  40% {left: -1191px;}
+  60% {left: -1787px;}
+  80% {left: -2383px;}
+}
+
+.bag {
+  position: absolute;
+  top: 0.2%;
+  width: 548px;
+  height: 530px;
+  overflow: hidden;
+  right: 0%;
+}
+.name2 {
+  position: absolute;
+top: 0px;
+left: 0px;
+animation: uhh 0.7s steps(1) alternate infinite;
+}
+@keyframes uhh {
+  0% {left: 0px;}
+  20% {left: -596px;}
+  40% {left: -1191px;}
+  60% {left: -1787px;}
+  80% {left: -2383px;}
+}
+
+.sdohlacontparent {
+  position: absolute;
+  top: 68.5%;
+  width: 33.9%;
+  height: 43vw;
+  left: 5%;
+}
+.sdohlacont {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../images/sdohla.svg") no-repeat 0 0%;
+  background-size: cover;
+  animation: new 0.6s steps(3) alternate infinite;}
+.sdohlacont3 {
+    position: absolute;
+    top: 19.5%;
+    width: 33.9vw;
+    height: 43.125vw;
+    overflow: hidden;
+    right: 39%;
+    transform: rotate(90deg);
+    background: url("../images/sdohla.svg") no-repeat 0 0%;
+    background-size: cover;
+    animation: new 0.5s steps(3) alternate infinite;
+  }
+
+.sdohlacont2 {
+    position: absolute;
+    top: 50.5%;
+    width: 33.9vw;
+    height: 43.125vw;
+    overflow: hidden;
+    right: 1%;
+    transform: rotate(180deg);
+    background: url("../images/sdohla.svg") no-repeat 0 0%;
+    background-size: cover;
+    animation: new 0.5s steps(3) alternate infinite;
+  }
+
+@keyframes new {
+  from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+  }
+.main img {
+  width: 100%;
+margin-left: 0px;
+margin-top: 11%;
+}
+.main {
+  z-index: 100;
+  position: relative;
+}
+
+.sprite {
+  position: absolute;
+  top: 80%;
+  width: 289px;
+  height: 255px;
+  left: 14%;
+  background: url("../images/sprite.svg");
+  background-position: 0px;
+  background-size: cover;
+  animation: ohh 0.7s steps(1) alternate infinite;
+}
+@keyframes ohh {
+  0% {background-position: 0px;}
+  20% {background-position: -289px;}
+  40% {background-position: -578px;}
+  60% {background-position: -867px;}
+  80% {background-position: -1156px;}
+}
+.sprite2 {
+  position: absolute;
+  background: url("../images/sprite2.svg");
+  top: 58.5%;
+  width: 289px;
+  height: 255px;
+  overflow: hidden;
+  background-size: cover;
+  left: 30%;
+  background-size: cover;
+  animation: ohh 0.7s steps(1) alternate infinite;
+}
+.sprite3 {
+  position: absolute;
+  background: url("../images/sprite3.svg");
+  background-size: cover;
+  top: 29.4%;
+  width: 289px;
+  height: 255px;
+  overflow: hidden;
+  right: 25%;
+  z-index: 30;
+  animation: ohh 0.7s steps(1) alternate infinite;
+}
+.sprite4 {
+  position: absolute;
+  background: url("../images/sprite4.svg");
+  top: 11%;
+  width: 289px;
+  background-size: cover;
+  height: 255px;
+  overflow: hidden;
+  left: 11%;
+  animation: ohh 0.7s steps(1) alternate infinite;
+}
+.kitchenline {
+  position: absolute;
+background: linear-gradient(-90deg, rgba(255,205,0,1) 0%, rgba(255,0,229,1) 52%, rgba(255,205,0,1) 94%);
+height: 4.66vw;
+  bottom: 82.85%;
+  left: 22%;
+  right: 29.6%;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  animation: be 3s infinite;
+  animation-direction: reverse;
+  z-index: 20;
+  opacity: 1;
+}
+.kitchenline2 {
+  position: absolute;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+background-position: 0 0;
+z-index: 200;
+animation: ba 10s infinite;
+background-size: 100% 100%;
+top: 16.46%;
+left: 17.5%;
+right: 77.97%;
+bottom: 80.1%;
+opacity: 1;
+}
+.kitchentwo {
+  position: absolute;
+  left: 7.2%;
+  right: 29.6%;
+  top: 13.5%;
+  bottom: 80.1%;
+  opacity: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+.kitchentwo:hover {
+  opacity: 1;
+}
+.kitchentwo:hover ~ .kitchenline {
+  opacity: 0.3;
+}
+.kitchentwo:hover ~ .kitchenline2 {
+  opacity: 0.3;
+}
+.banana {
+  position: absolute;
+  top: 44%;
+    left:  100%;
+  transform: rotate(19deg);
+  animation: banana 2s linear infinite;
+}
+.banana img {
+width: 94.48px;
+height: 71.99px;
+}
+.banana2 {
+  position: absolute;
+  top: 46%;
+  left: 102%;
+  animation: banana2 3s linear infinite;
+}
+.banana2 img {
+width: 100.21px;
+height: 57.41px;
+}
+.banana3 {
+  position: absolute;
+  top: 46%;
+  left: 100%;
+  animation: banana2 3s linear infinite;
+  animation-delay: 1.5s;
+}
+.banana3 img {
+width: 100.21px;
+height: 57.41px;
+}
+.lemon {
+position: absolute;
+top: 47%;
+left: 100%;
+animation: lemon 3s linear infinite;
+animation-delay: 0.3s;
+}
+.lemon img {
+  width: 57.97px;
+  height: 45.38px;
+}
+.lemon2 {
+position: absolute;
+top: 46%;
+left: 100%;
+animation: lemon2 3s linear infinite;
+animation-delay: 2s;
+}
+.lemon2 img {
+  width: 37.87px;
+  height: 40.66px;
+}
+.lemon3 {
+position: absolute;
+top: 47%;
+left: 100%;
+animation: lemon 3s linear infinite;
+animation-delay: 2s;
+}
+.lemon3 img {
+  width: 57.97px;
+  height: 45.38px;
+}
+@keyframes lemon {
+0% {left: 100%; top: 47%; transform: rotate(0deg);
+}
+50% {left: 16%; top: 47%; transform: rotate(0deg)}
+100% {left: 16%; top: 100%; transform: rotate(-90deg)}
+}
+@keyframes lemon2 {
+0% {left: 100%; top: 46%; transform: rotate(180deg);
+}
+40% {left: 16%; top: 46%; transform: rotate(90deg)}
+100% {left: 16%; top: 100%; transform: rotate(-90deg)}
+}
+@keyframes banana {
+0% {left: 100%; top: 44%; transform: rotate(19deg);
+}
+60% {left: 16%; top: 44%; transform: rotate(19deg)}
+100% {left: 16%; top: 100%; transform: rotate(-100deg)}
+}
+@keyframes banana2 {
+0% {left: 102%; top: 46%; transform: rotate(180deg);
+}
+50% {left: 16%; top: 46%; transform: rotate(180deg)}
+100% {left: 16%; top: 102%; transform: rotate(0deg)}
+
+}
+/* .wrap {
+  position: relative;
+  width: 100%;
+  margin-top: 35vw;
+  margin-bottom: 20vw;
+} */
+.kitchen {
+  position: absolute;
+  background-color: rgba(135, 104, 225, 1);
+  left: 7.2%;
+  right: 29.6%;
+  top: 13.5%;
+  bottom: 80.1%;
+  /* margin-bottom: 80%; */
+}
+   .kitchen h1 {
+    font-family: FuturaFuturisBlackC;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    color: #FFCD00;
+    margin-left: 24px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+   }
+   .kitchen p {
+     font-family: FTX45;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+color: #FFCD00;
+line-height: 65px;
+margin-left: 24px;
+margin-top: 10px;
+   }
+
+   .candyline {
+     position: absolute;
+   background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+   background-position: 0 0;
+   z-index: 200;
+   animation: ba 2.5s infinite;
+   background-size: 100% 100%;
+   top: 65.9%;
+   bottom: 2%;
+   left:  48.7%;
+   right: 45.2%;
+   opacity: 1;
+   }
+   .candy {
+     position: absolute;
+     top: 65.9%;
+     bottom: 2%;
+     left:  48.7%;
+     right: 45.2%;
+     overflow: hidden;
+     opacity: 0;
+   }
+
+   .deskbowl img:hover ~ .candy {
+     opacity: 1;
+   }
+   .deskbowl img:hover ~ .candyline {
+     opacity: 0.3;
+   }
+   .candy1 {
+     position: absolute;
+     top: -40%;
+     animation: candybig 1s linear infinite;
+   }
+   .candy4 {
+     position: absolute;
+     top: -40%;
+     left: 54%;
+     animation: candybig 1.2s linear infinite;
+   }
+   .candy2 {
+     position: absolute;
+     top: -40%;
+     left: 54%;
+     animation: candybig 1.5s linear infinite;
+     animation-delay: 1s;
+   }
+   .candy3 {
+     position: absolute;
+     top: -40%;
+     left: 0%;
+     animation: candybig 1.8s linear infinite;
+     animation-delay: 0.3s;
+   }
+   @keyframes candybig {
+   0% {
+     top: -40%
+   }
+   100% {
+     top: 100%;
+   }
+   }
+
+.contain {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110%;
+  opacity: 1;
+  /* opacity: 0.3; */
+}
+.contain:hover {
+  opacity: 1;
+}
+.blades {
+}
+.bladestwo {
+  margin-top: 300px;
+}
+.blade-right {
+  position: relative;
+  height: 696px;
+  width: 30px;
+  display: inline-block;
+  background-image: url("../images/jojo.svg");
+  background-position: top 0px right 0px;
+  animation: bladee 2s steps(1) infinite;
+}
+.blade-leftt {
+  position: relative;
+  height: 696px;
+  display: inline-block;
+  width: 110.5px;
+  overflow: hidden;
+  margin-left: 0px;
+  background-image: url("../images/jojo.svg");
+  background-position: top 0px right 0px;
+animation: bladee 2s steps(1) infinite;
+}
+@keyframes bladee {
+  0% {background-position: right 0px top 0px;}
+  10% {background-position: right 0px top -67.5px;}
+  20% {background-position: right 0px top -138px;}
+  30% {background-position: right 0px top -206px;}
+  40% {background-position: right 0px top -279px;}
+  50% {background-position: right 0px top -347px;}
+  60% {background-position: right 0px top -421px;}
+  70% {background-position: right 0px top -486px;}
+  80% {background-position: right 0px top -557px;}
+  90% {background-position: right 0px top -626px;}
+  100% {background-position: right 0px top -697px;}
+}
+.bladee-leftt {
+  position: relative;
+  height: 696px;
+  display: inline-block;
+  width: 110.5px;
+  background-image: url("../images/jojo.svg");
+  background-position: top 0px right 0px;
+  animation: bladee 2s steps(1) infinite;
+
+}
+
+.bladee-right {
+  position: relative;
+  height: 696px;
+  width: 30px;
+  margin-left: 0px;
+  display: inline-block;
+  background-image: url("../images/jojo.svg");
+  background-position: top 0px right 30px;
+  animation: bladeetwo 2s steps(1) infinite;
+}
+@keyframes bladeetwo {
+  0% {background-position: right 30px top 0px;}
+  10% {background-position: right 30px top -67.5px;}
+  20% {background-position: right 30px top -138px;}
+  30% {background-position: right 30px top -206px;}
+  40% {background-position: right 30px top -279px;}
+  50% {background-position: right 30px top -347px;}
+  60% {background-position: right 30px top -421px;}
+  70% {background-position: right 30px top -486px;}
+  80% {background-position: right 30px top -557px;}
+  90% {background-position: right 30px top -626px;}
+  100% {background-position: right 30px top -697px;}
+}
+.bladestext {
+  position: absolute;
+  left: 27%;
+  top: 61.2%;
+}
+.bladestext h1 {
+  font-family: FuturaFuturisBlackC;
+font-style: normal;
+font-weight: 900;
+font-size: 6vw;
+color: #FFCD00;
+margin-bottom: 0px;
+}
+
+.bladestext p {
+  width: 300px;
+  font-family: FTX45;
+font-style: normal;
+font-weight: normal;
+font-size: 6vw;
+color: #FFCD00;
+line-height: 65px;
+margin-top: 10px;
+}
+
+* {
+  z-index: 10;
+}
+.begin {
+  position: absolute;
+left: calc(50% - 155px);
+top: 42px;
+background: url("../images/upup.svg") no-repeat;
+background-size: contain;
+width: 310px;
+height: 300px;
+}
+.sort {
+  position: relative;
+margin-top: 90%;
+padding-bottom: 200px;
+}
+
+.sort h1 {
+  position: absolute;
+  font-family: FuturaFuturisBlackC;
+font-style: normal;
+font-weight: 900;
+font-size: 6vw;
+margin-top: -20px;
+margin-left: 11.5%;
+color: #FFCD00;}
+.sort p {
+  position: absolute;
+  width: 300px;
+  font-family: FTX45;
+font-style: normal;
+font-weight: normal;
+font-size: 6vw;
+color: #FFCD00;
+line-height: 74px;
+margin-left: 11.5%;
+margin-top: 76px;
+}
+.line1 {
+  position: absolute;
+  background-color: #866AE1;
+  right: 11.5%;
+  left: 34%;
+  height: 3.1vw;
+  overflow: hidden;
+}
+.response2 {
+    position: absolute;
+    height: 100%;
+    width: 6.84vw;
+    right: 18.6%;
+    transform: rotate(180deg);
+    opacity: 0;
+}
+.response {
+    position: absolute;
+    height: 100%;
+    width: 6.84vw;
+    left: 56.4%;
+    opacity: 0;
+}
+
+.response3 {
+    position: absolute;
+    height: 100%;
+    width: 6.84vw;
+    left: 29.2%;
+    opacity: 0;
+
+}
+.response4 {
+  position: absolute;
+  height: 100%;
+  width: 6.84vw;
+  right: 30.4%;
+  transform: rotate(180deg);
+  opacity: 0;
+
+}
+.response5 {
+  position: absolute;
+  height: 100%;
+  width: 6.84vw;
+  left: 41.2%;
+  opacity: 0;
+
+}
+.response6 {
+  position: absolute;
+  height: 100%;
+  width: 6.84vw;
+  right: 25%;
+  transform: rotate(180deg);
+  opacity: 0;
+
+}
+.squaree {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 0;
+  background-color: #FFCD00;
+  animation: step1 1s alternate infinite;
+}
+@keyframes step1 {
+  0% {right: 0%;}
+  100% {right: 2.27vw;}
+}
+.squaree2 {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 1.13vw;
+  background-color: #FFCD00;
+  animation: step2 1s alternate infinite;
+}
+@keyframes step2 {
+  0% {right: 1.13vw;}
+  100% {right: 4.52vw;}
+}
+.squaree3 {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 0%;
+  top: 1.1vw;
+  background-color: #FFCD00;
+  animation: step3 1s alternate infinite;
+}
+@keyframes step3 {
+  0% {right: 0%;}
+  100% {right: 3.39vw;}
+}
+.squaree4 {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 1.13vw;
+  top: 1.1vw;
+  background-color: #FFCD00;
+  animation: step4 1s alternate infinite;
+}
+@keyframes step4 {
+  0% {right: 1.13vw;}
+  100% {right: 5.65vw;}
+}
+.squaree5 {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 0%;
+  top: 2.2vw;
+  background-color: #FFCD00;
+  animation: step5 1s alternate infinite;
+}
+@keyframes step5 {
+  0% {right: 0%;}
+  100% {right: 2.27vw;}
+}
+.squaree6 {  position: absolute;
+  width: 1.13vw;
+  height: 1.1vw;
+  right: 1.13vw;
+  top: 2.2vw;
+  background-color: #FFCD00;
+  animation: step6 1s alternate infinite;
+}
+@keyframes step6 {
+  0% {right: 1.13vw;}
+  100% {right: 4.52vw;}
+}
+.line2 {
+  position: absolute;
+  left: 55%;
+  background-color: #866AE1;
+  top: 99px;
+  height: 3.1vw;
+  right: 11.5%;
+  overflow: hidden;
+}
+.line3 {
+  position: absolute;
+  left: 48%;
+  background-color: #866AE1;
+  right: 11.5%;
+  height: 3.1vw;
+  top: 172px;
+  overflow: hidden;
+}
+.endgame {
+  margin-top: 85%;
+  position: relative;
+}
+.endgame img {
+position: relative;
+width: 100%;
+}
+.phonemain {
+  display: none;
+}
+.bottom {
+  position: absolute;
+  background: url("../images/bottomsprite.svg");
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  animation: mew 0.6s steps(4) alternate infinite;
+}
+.parent {
+  position: absolute;
+  width: 90%;
+  height: 54vw;
+  bottom: 1%;
+  left: 5%;
+}
+@keyframes mew {
+  from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+.brizgcont {
+  position: absolute;
+  top: 46.5%;
+  width: 48vw;
+  height: 52.9vw;
+  overflow: hidden;
+  left: 81px;
+  background: url("../images/brizg.svg") no-repeat 0 0%;
+  background-size: cover;
+  animation: dhh 0.5s steps(3) alternate infinite;
+}
+@keyframes dhh {
+  from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+
+.littlecont {
+  position: absolute;
+  top: 74.5%;
+  width: 20.2vw;
+  height: 25.9vw;
+  overflow: hidden;
+  left: 43%;
+  transform: rotate(180deg);
+  background: url("../images/little.svg") no-repeat 0 0%;
+  background-size: cover;
+  animation: pew 0.6s steps(3) alternate infinite;
+
+}
+@keyframes pew {
+  from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+.littlecont2 {
+  position: absolute;
+  top: 27.55%;
+  width: 20.2vw;
+  height: 25.9vw;
+  overflow: hidden;
+  left: 16%;
+  transform: rotate(180deg);
+  background: url("../images/little.svg") no-repeat 0 0%;
+  background-size: cover;
+  animation: pew 0.6s steps(3) alternate infinite;
+}
+.deskbowl {
+  display: block;
+position: relative;
+margin-top: 158%;
+}
+.deskbowl {
+  width: 75%;
+  margin-left: 13%;
+}
+.deskbowltext {
+  position: absolute;
+  right: 6%;
+  top: 32.1%;
+}
+.deskbowltext h1 {
+ font-family: FuturaFuturisBlackC;
+ font-style: normal;
+ font-weight: 900;
+ font-size: 6vw;
+ color: #FFCD00;
+ margin-bottom: 0px;
+}
+.deskbowltext p {
+  font-family: FTX45;
+font-style: normal;
+font-weight: normal;
+font-size: 6vw;
+color: #FFCD00;
+line-height: 65px;
+width: 44vw;
+margin-top: 10px;
+}

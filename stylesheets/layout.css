@@ -7,55 +7,40 @@
 }
 .bleach {
   position: absolute;
-  top: 0.3%;
-  width: 596px;
-  height: 530px;
+  top: 0%;
+  width: 51vw;
+  height: 45.41vw;
   overflow: hidden;
   left: 9%;
   z-index: 200;
+  background: url("../images/name.svg") no-repeat 0 0%;
+  background-size: cover;
+  animation: uhh 0.7s steps(4) alternate infinite;
 }
-.name {
-  position: absolute;
-top: 0px;
-left: 0px;
-animation: uhh 0.7s steps(1) alternate infinite;
-}
-@keyframes uhh {
-  0% {left: 0px;}
-  20% {left: -596px;}
-  40% {left: -1191px;}
-  60% {left: -1787px;}
-  80% {left: -2383px;}
-}
-
 .bag {
   position: absolute;
-  top: 0.2%;
-  width: 548px;
-  height: 530px;
+  top: -1%;
+  width: 42.81vw;
+  height: 41.41vw;
   overflow: hidden;
   right: 0%;
-}
-.name2 {
-  position: absolute;
-top: 0px;
-left: 0px;
-animation: uhh 0.7s steps(1) alternate infinite;
+  background: url("../images/name2.svg") no-repeat 0 0%;
+  background-size: cover;
+  animation: uhh 0.7s steps(4) alternate infinite;
 }
 @keyframes uhh {
-  0% {left: 0px;}
-  20% {left: -596px;}
-  40% {left: -1191px;}
-  60% {left: -1787px;}
-  80% {left: -2383px;}
+  from { background-position: 0 0; }
+    to { background-position: 100% 0; }
 }
-
 .sdohlacontparent {
   position: absolute;
   top: 68.5%;
   width: 33.9%;
   height: 43vw;
   left: 5%;
+}
+.phbowl {
+  display: none;
 }
 .sdohlacont {
   position: absolute;

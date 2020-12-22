@@ -5,6 +5,96 @@
     font-family: FTX45;
     src: url(fonts/FTX45.otf);
 }
+.info1 {
+  position: absolute;
+  height: auto;
+  top: 22%;
+  left: 42%;
+}
+.twoseven {
+  position: relative;
+}
+.twoseven p {
+  font-family: FTX45;
+font-style: normal;
+font-weight: normal;
+font-size: 6vw;
+color: rgba(135, 104, 225, 1);
+line-height: 65px;
+margin-left: 24px;
+margin-top: 10px;
+}
+.sprite32 {
+  margin-left: 55%;
+  position: relative;
+  background: url("../images/sprite32.svg");
+  background-size: cover;
+  width: 22.58vw;
+  height: 19.92vw;
+  overflow: hidden;
+  z-index: 30;
+  animation: cringe 0.6s steps(4) alternate infinite;
+}
+.info2 {
+  position: absolute;
+  height: auto;
+  top: 44.3%;
+  left: 38%;
+}
+.fivefour {
+  position: relative;
+}
+.fivefour p {
+  font-family: FTX45;
+font-style: normal;
+font-weight: normal;
+font-size: 6vw;
+color: rgba(135, 104, 225, 1);
+line-height: 65px;
+margin-left: 24px;
+margin-top: 10px;
+}
+.sprite42 {
+  margin-left: 55%;
+  position: relative;
+  background: url("../images/sprite42.svg");
+  background-size: cover;
+  width: 22.58vw;
+  height: 19.92vw;
+  overflow: hidden;
+  z-index: 30;
+  animation: cringe 0.6s steps(4) alternate infinite;
+}
+.info3 {
+  position: absolute;
+  height: auto;
+  top: 71.5%;
+  left: 7%;
+}
+.eightone {
+  position: relative;
+}
+.eightone p {
+  font-family: FTX45;
+font-style: normal;
+font-weight: normal;
+font-size: 6vw;
+color: rgba(135, 104, 225, 1);
+line-height: 65px;
+margin-left: 24px;
+margin-top: 10px;
+}
+.sprite12 {
+  margin-left: 42%;
+  position: relative;
+  background: url("../images/sprite43.svg");
+  background-size: cover;
+  width: 22.58vw;
+  height: 19.92vw;
+  overflow: hidden;
+  z-index: 30;
+  animation: cringe 0.6s steps(4) alternate infinite;
+}
 .bleach {
   position: absolute;
   top: 0%;
@@ -34,10 +124,11 @@
 }
 .sdohlacontparent {
   position: absolute;
-  top: 68.5%;
-  width: 33.9%;
-  height: 43vw;
-  left: 5%;
+  top: 50.7%;
+  width: 21.9%;
+    height: 25vw;
+  left: 33%;
+  transform: rotate(-90deg);
 }
 .phbowl {
   display: none;
@@ -52,16 +143,15 @@
   background-size: cover;
   animation: new 0.6s steps(3) alternate infinite;}
 .sdohlacont3 {
-    position: absolute;
-    top: 19.5%;
-    width: 33.9vw;
-    height: 43.125vw;
-    overflow: hidden;
-    right: 39%;
-    transform: rotate(90deg);
-    background: url("../images/sdohla.svg") no-repeat 0 0%;
-    background-size: cover;
-    animation: new 0.5s steps(3) alternate infinite;
+  position: absolute;
+  top: 42%;
+  width: 19.9vw;
+  height: 28.125vw;
+  overflow: hidden;
+  right: 71%;
+  background: url(../images/sdohla.svg) no-repeat 0 0%;
+  background-size: cover;
+  animation: new 0.5s steps(3) alternate infinite;
   }
 
 .sdohlacont2 {
@@ -295,7 +385,7 @@ animation-delay: 2s;
     font-family: FuturaFuturisBlackC;
     font-style: normal;
     font-weight: 900;
-    font-size: 72px;
+    font-size: 6vw;
     color: #FFCD00;
     margin-left: 24px;
     padding-top: 20px;
@@ -305,7 +395,7 @@ animation-delay: 2s;
      font-family: FTX45;
 font-style: normal;
 font-weight: normal;
-font-size: 80px;
+font-size: 6vw;
 color: #FFCD00;
 line-height: 65px;
 margin-left: 24px;
@@ -700,11 +790,24 @@ width: 100%;
 }
 .brizgcont {
   position: absolute;
-  top: 46.5%;
-  width: 48vw;
-  height: 52.9vw;
+  top: 21.2%;
+  width: 15vw;
+  height: 16.9vw;
   overflow: hidden;
-  left: 81px;
+  right: 58%;
+  transform: rotate(90deg);
+  background: url("../images/brizg.svg") no-repeat 0 0%;
+  background-size: cover;
+  animation: dhh 0.5s steps(3) alternate infinite;
+}
+.brizgcont2 {
+  position: absolute;
+  top: 9.2%;
+  width: 15vw;
+  height: 16.9vw;
+  overflow: hidden;
+  right: 26%;
+  transform: rotate(90deg);
   background: url("../images/brizg.svg") no-repeat 0 0%;
   background-size: cover;
   animation: dhh 0.5s steps(3) alternate infinite;
@@ -717,15 +820,38 @@ width: 100%;
 .littlecont {
   position: absolute;
   top: 74.5%;
-  width: 20.2vw;
-  height: 25.9vw;
+  width: 18.2vw;
+    height: 23.9vw;
   overflow: hidden;
-  left: 43%;
-  transform: rotate(180deg);
+  left: 77%;
+  transform: rotate(-97deg);
   background: url("../images/little.svg") no-repeat 0 0%;
   background-size: cover;
   animation: pew 0.6s steps(3) alternate infinite;
-
+}
+.littlecont4 {
+  position: absolute;
+  top: 76.5%;
+  width: 18.2vw;
+    height: 23.9vw;
+  overflow: hidden;
+  left: 48%;
+  transform: rotate(-97deg);
+  background: url("../images/little.svg") no-repeat 0 0%;
+  background-size: cover;
+  animation: pew 0.6s steps(3) infinite;
+  animation-direction: alternate-reverse;
+}
+.littlecont3 {
+  position: absolute;
+  top: 70.5%;
+  width: 18.2vw;
+    height: 23.9vw;
+  overflow: hidden;
+  left: 77%;
+  background: url("../images/little.svg") no-repeat 0 0%;
+  background-size: cover;
+  animation: pew 0.6s steps(3) alternate infinite;
 }
 @keyframes pew {
   from { background-position: 0 0; }
@@ -733,7 +859,7 @@ width: 100%;
 }
 .littlecont2 {
   position: absolute;
-  top: 27.55%;
+  top: 26.55%;
   width: 20.2vw;
   height: 25.9vw;
   overflow: hidden;

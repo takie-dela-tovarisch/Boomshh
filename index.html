@@ -294,11 +294,74 @@ left: 35%;
 right: 7%;
 }
 .squaree {
-    position: absolute;
     width: 2.2vw;
     height: 2.2vw;
     right: 0;
-    animation: step1 1s alternate infinite;
+    animation: istep1 1s alternate infinite;
+    opacity: 1;
+}
+@keyframes istep1 {
+  0% {right: 0%;}
+  100% {right: 3vw;}
+}
+.squaree2 {
+  width: 2.2vw;
+  height: 2.2vw;
+  opacity: 1;
+  right: 0.7vw;
+  animation: istep2 1s alternate infinite;
+}
+@keyframes istep2 {
+  0% {right: 0.7vw;}
+  100% {right: 6.4vw;}
+}
+.squaree3 {
+  width: 2.2vw;
+  height: 2.2vw;
+  right: 0%;
+  top: 2.2vw;
+  opacity: 1;
+  animation: istep3 1s alternate infinite;
+}
+@keyframes istep3 {
+  0% {right: 0%;}
+  100% {right: 4.6vw;}
+}
+.squaree4 {
+  width: 2.2vw;
+  height: 2.2vw;
+  top: 2.2vw;
+  right: 0.7vw;
+  opacity: 1;
+  animation: istep4 1s alternate infinite;
+}
+@keyframes istep4 {
+  0% {right: 0.7vw;}
+  100% {right: 4.6vw;}
+}
+.squaree5 {
+  width: 2.2vw;
+  height: 2.2vw;
+  right: 0%;
+  top: 4vw;
+  opacity: 1;
+  animation: istep5 1s alternate infinite;
+}
+@keyframes istep5 {
+0% {right: 0%;}
+100% {right: 3vw;}
+}
+.squaree6 {
+  width: 2.2vw;
+  height: 2.2vw;
+  right: 0.7vw;
+  top: 4vw;
+  opacity: 1;
+  animation: istep6 1s alternate infinite;
+}
+@keyframes istep6 {
+0% {right: 0.7vw;}
+100% {right: 6.4vw;}
 }
 .sort {
   margin-top: 94%;
@@ -494,6 +557,82 @@ bottom: 4%;
 left: 48.4%;
 right: 46.07%;
 }
+.icandy {
+  position: absolute;
+  left: 48.5%;
+  right: 46%;
+  top: 66%;
+  bottom: 1%;
+  overflow: hidden;
+  opacity: 0;
+}
+.phbowl:hover .icandy {
+  opacity: 1;
+}
+.deskbowl img:hover ~ .candyline {
+  opacity: 0.3;
+}
+.icandy2 {
+  position: absolute;
+  top: -40%;
+  left: 0%;
+  animation: candybig 2s linear infinite;
+  animation-delay: 1s;
+}
+.icandy4 {
+  position: absolute;
+  top: -40%;
+  left: 0%;
+  animation: candybig 0.7s linear infinite;
+}
+.aaaa {
+    height: 6.1vw;
+    top: 0%;
+    right: 12.7%;
+    left: 78.7%;
+}
+.aaaa2 {
+    height: 6.1vw;
+    top: 0%;
+    right: 17.7%;
+    left: 70.3%;
+}
+.aaaa3 {
+    height: 6.1vw;
+    top: 0%;
+    right: 15.7%;
+    left: 74.1%;
+}
+.response2 {
+    height: 100%;
+    width: 8.88vw;
+    right: 4.6%;
+}
+.response {
+    height: 100%;
+    width: 8.8vw;
+    left: 70.4%;
+}
+.response3 {
+    height: 100%;
+    width: 8.8vw;
+    left: 58.4%;
+}
+.response4 {
+  height: 100%;
+  width: 8.8vw;
+  right: 6.5%;
+}
+.response5 {
+  height: 100%;
+  width: 8.8vw;
+  left: 64.1%;
+}
+.response6 {
+  height: 100%;
+  width: 8.8vw;
+  right: 5.3%;
+}
 }
 
     </style>
@@ -669,7 +808,20 @@ right: 46.07%;
       </div>
 
 <div class="phbowl">
-
+  <div class="icandy">
+  <div class="candy1">
+  <img src="images/candy.svg" alt="">
+  </div>
+  <div class="icandy2">
+  <img src="images/candy.svg" alt="">
+  </div>
+  <div class="candy3">
+  <img src="images/candy.svg" alt="">
+  </div>
+  <div class="icandy4">
+  <img src="images/candy.svg" alt="">
+  </div>
+  </div>
 </div>
 
 

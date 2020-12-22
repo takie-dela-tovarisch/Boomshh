@@ -747,11 +747,13 @@ width: 100%;
   display: block;
 position: relative;
 margin-top: 158%;
+width: 75%;
+margin-left: 13%;
 }
-.deskbowl {
+/* .deskbowl {
   width: 75%;
   margin-left: 13%;
-}
+} */
 .deskbowltext {
   position: absolute;
   right: 6%;

@@ -398,8 +398,7 @@ margin-top: 10px;
   display: flex;
   justify-content: space-between;
   margin-top: 110%;
-  opacity: 1;
-  /* opacity: 0.3; */
+  opacity: 0.3;
 }
 .contain:hover {
   opacity: 1;

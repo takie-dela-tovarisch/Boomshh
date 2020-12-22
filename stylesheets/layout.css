@@ -424,7 +424,7 @@ margin-top: 10px;
   display: inline-block;
   width: 110.5px;
   overflow: hidden;
-  margin-left: 0px;
+  margin-left: -16px;
   background-image: url("../images/jojo.svg");
   background-position: top 0px right 0px;
 animation: bladee 2s steps(1) infinite;
@@ -450,7 +450,6 @@ animation: bladee 2s steps(1) infinite;
   background-image: url("../images/jojo.svg");
   background-position: top 0px right 0px;
   animation: bladee 2s steps(1) infinite;
-
 }
 
 .bladee-right {

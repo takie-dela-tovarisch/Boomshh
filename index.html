@@ -128,7 +128,54 @@ left: 38.8%;
     bottom: 73%;
     left: 9.2%;
     right: 20.6%;
-    opacity: 1;
+}
+.banana img {
+    width: 47.24px;
+    height: 35.995px;
+}
+.banana2 img {
+    width: 50px;
+    height: 28.5px;
+}
+.banana3 img {
+    width: 50px;
+    height: 28.5px;
+}
+.lemon img {
+    width: 29px;
+    height: 23px;
+}
+.lemon2 img {
+    width: 19px;
+    height: 20.5px;
+}
+.lemon3 img {
+    width: 29px;
+    height: 23px;
+}
+@keyframes lemon {
+0% {left: 100%; top: 47%; transform: rotate(0deg);
+}
+50% {left: 23%; top: 47%; transform: rotate(0deg)}
+100% {left: 23%; top: 100%; transform: rotate(-90deg)}
+}
+@keyframes lemon2 {
+0% {left: 100%; top: 46%; transform: rotate(180deg);
+}
+40% {left: 23%; top: 46%; transform: rotate(90deg)}
+100% {left: 23%; top: 100%; transform: rotate(-90deg)}
+}
+@keyframes banana {
+0% {left: 100%; top: 44%; transform: rotate(19deg);
+}
+60% {left: 23%; top: 44%; transform: rotate(19deg)}
+100% {left: 23%; top: 100%; transform: rotate(-100deg)}
+}
+@keyframes banana2 {
+0% {left: 102%; top: 46%; transform: rotate(180deg);
+}
+50% {left: 23%; top: 46%; transform: rotate(180deg)}
+100% {left: 23%; top: 102%; transform: rotate(0deg)}
 }
 .kitchen h1 {
   margin-left: 10px;
@@ -566,10 +613,23 @@ right: 46.07%;
   overflow: hidden;
   opacity: 0;
 }
+.icandyline {
+  position: absolute;
+background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
+background-position: 0 0;
+z-index: 200;
+animation: ba 2.5s infinite;
+background-size: 100% 100%;
+top: 66%;
+bottom: 1%;
+left:  48.5%;
+right: 46%;
+opacity: 1;
+}
 .phbowl:hover .icandy {
   opacity: 1;
 }
-.deskbowl img:hover ~ .candyline {
+.phbowl:hover .icandyline {
   opacity: 0.3;
 }
 .icandy2 {
@@ -579,12 +639,26 @@ right: 46.07%;
   animation: candybig 2s linear infinite;
   animation-delay: 1s;
 }
+.icandy2 img {
+width: 100%;
+height: auto;}
 .icandy4 {
   position: absolute;
   top: -40%;
   left: 0%;
   animation: candybig 0.7s linear infinite;
 }
+.candy1 img {
+  width: 100%;
+  height: auto;}
+}
+.candy3 img {
+  width: 100%;
+  height: auto;}
+}
+.icandy4 img {
+width: 100%;
+height: auto;}
 .aaaa {
     height: 6.1vw;
     top: 0%;
@@ -821,6 +895,8 @@ right: 46.07%;
   <div class="icandy4">
   <img src="images/candy.svg" alt="">
   </div>
+  </div>
+  <div class="icandyline">
   </div>
 </div>
 

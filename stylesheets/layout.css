@@ -424,7 +424,7 @@ margin-top: 10px;
   display: inline-block;
   width: 110.5px;
   overflow: hidden;
-  margin-left: -16px;
+  margin-left: 0px;
   background-image: url("../images/jojo.svg");
   background-position: top 0px right 0px;
 animation: bladee 2s steps(1) infinite;
@@ -542,6 +542,7 @@ margin-top: 76px;
 .line1 {
   position: absolute;
   background-color: #866AE1;
+  top: 0px;
   right: 11.5%;
   left: 34%;
   height: 3.1vw;

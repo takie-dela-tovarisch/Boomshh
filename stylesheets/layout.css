@@ -121,10 +121,13 @@ margin-top: 0.78vw;
   z-index: 30;
   animation: cringe 0.6s steps(4) alternate infinite;
 }
+.icont1 {
+  display: none;
+}
 .bleach {
   position: absolute;
   top: 0%;
-  width: 51vw;
+  width: 50.9vw;
   height: 45.41vw;
   overflow: hidden;
   left: 9%;

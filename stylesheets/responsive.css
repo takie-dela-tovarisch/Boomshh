@@ -42,8 +42,48 @@ right: 45.3%;
   }
 
 }
-
-@media only screen and (min-width: 768px) and (max-width: 823px) {
+@media only screen and (min-width: 1024px) and (max-width: 1278px) {
+  .o {
+    bottom: 45.6%;
+  }
+  .p {
+    bottom: 45%;
+  }
+  .q {
+    top: 54.5%;
+    right: 93.7%;
+  }
+  .u {
+    left: 93%;
+  }
+  .kitchenline2 {
+    top: 16.48%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .littlecont5 {
+    top: 69.8%;
+  }
+  .littlecont3 {
+    top: 71.2%;
+    left: 70%;
+  }
+  .littlecont4 {
+    top: 79.5%;
+    left: 55%;
+  }
+  .brizgcont2 {
+    top: 90%;
+    right: 26%;
+    transform: rotate(180deg);
+  }
+  .littlecont2 {
+    top: 23.6%;
+    left: 24%;
+  }
+  .sdohlacont3 {
+    right: 56%;
+  }
   .info3 {
       top: 73.5%;
   }
@@ -463,6 +503,93 @@ bottom: 30.5%;
   80% {background-position: -906.4px;}
 }
 @media only screen and (min-width: 491px) and (max-width: 767px) {
+  .icont1 {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    top: 32.2%;
+    width: 26vw;
+    height: 28.9vw;
+    right: 13%;
+    transform: rotate(90deg);
+    background: url(../images/brizg.svg) no-repeat 0 0%;
+    background-size: cover;
+    animation: dhh 0.5s steps(3) alternate infinite;
+  }
+  .brizgcont2 {
+    top: 10.2%;
+    width: 27vw;
+    height: 28.9vw;
+    right: 66%;
+    transform: rotate(-90deg);
+  }
+  .icont2 {
+    position: absolute;
+    top: 89%;
+    width: 18.2vw;
+    height: 23.9vw;
+    overflow: hidden;
+    left: 56%;
+    background: url(../images/little.svg) no-repeat 0 0%;
+    background-size: cover;
+    animation: pew 0.6s steps(3) alternate infinite;
+}
+  .littlecont4 {
+    top: 91.5%;
+    width: 31.2vw;
+    height: 37.9vw;
+    left: 58%;
+    transform: rotate(180deg);
+  }
+  .littlecont5 {
+    width: 32.2vw;
+    height: 39.9vw;
+  }
+  .littlecont3 {
+    top: 71.7%;
+    width: 23.2vw;
+    height: 31.9vw;
+    left: 61%;
+  }
+  .sdohlacontparent {
+    top: 43.7%;
+    width: 30.9%;
+    height: 38vw;
+    left: 12%;;
+}
+.sdohlacont2 {
+  top: 43.5%;
+width: 27.9vw;
+height: 37.125vw;
+overflow: hidden;
+right: 12%;
+  }
+  .littlecont {
+    top: 75.5%;
+    left: 56%;
+  }
+  .brizgcont {
+    top: 18%;
+    width: 26vw;
+    height: 28.9vw;
+    right: 22%;
+    transform: rotate(-90deg);
+  }
+  .littlecont2 {
+    position: absolute;
+    top: 27%;
+    width: 24.2vw;
+    height: 29.9vw;
+    overflow: hidden;
+    left: 36%;
+  }
+  .sdohlacont3 {
+    top: 10%;
+    width: 33.9vw;
+    height: 43.125vw;
+    right: 7%;
+    transform: rotate(180deg);
+  }
   .bleach {
     top: 0.7%;
     left: 12%;
@@ -550,7 +677,7 @@ bottom: 30.5%;
   }
   .kitchen p {
     font-size: 10vw;
-    margin-top: -10px;
+    margin-top: 17px;
     margin-left: 10px;
   }
   .kitchenline {
@@ -606,13 +733,13 @@ bottom: 30.5%;
   .sprite {
     width: 32.58vw;
     height: 29.92vw;
-    top: 76%;
+    top: 77.5%;
     bottom: 327vw;
   }
   .sprite2 {
     width: 32.58vw;
     height: 29.92vw;
-    top: 54.5%;
+    top: 53.6%;
     left: 54%;
   }
   .sprite3 {
@@ -783,12 +910,12 @@ bottom: 30.5%;
     font-size: 10vw;
     line-height: 9vw;
     margin-left: 7%;
-    margin-top: 7vw;
+    margin-top: 9vw;
     width: 60vw;
   }
   .bladestext {
     left: 47%;
-      top: 57%;
+    top: 55.5%;
   }
   .bladestext h1 {
     font-size: 10vw;
@@ -879,22 +1006,22 @@ bottom: 30.5%;
   }
   .k {
     top: 34.41%;
-      bottom: 47.5%;
+      bottom: 53.5%;
       right: 46%;
       left: 48.5%;
       z-index: 1;
   }
   .l {
-      bottom: 47.5%;
+      bottom: 53.5%;
       height: 5.66vw;
-      left: 48.5%;
-      right: 38.5%;
+      left: 31.5%;
+      right: 46%;
   }
   .m {
-      top: 52.3%;
-      bottom: 46.5%;
-      left: 55.5%;
-      right: 38.5%;
+      top: 46.3%;
+      bottom: 48.5%;
+      left: 31.5%;
+      right: 62.5%;
   }
   .info2 {
     position: absolute;
@@ -929,28 +1056,28 @@ bottom: 30.5%;
   }
   .n {
       height: 5.66vw;
-      bottom: 46.5%;
-      left: 19.5%;
+      bottom: 48.1%;
+      left: 31.5%;
       right: 38.5%;
   }
   .o {
-    left: 19.5%;
-    top: 53.5%;
-    right: 74.5%;
-    bottom: 43%;
+    left: 54.5%;
+    top: 51.8%;
+    right: 38.5%;
+    bottom: 46%;
 
   }
   .p {
     height: 5.66vw;
-      bottom: 43%;
+      bottom: 46%;
       left: 0%;
-      right: 74.5%;
+      right: 38.5%;
     }
   .q {
-    top: 57%;
+    top: 53.9%;
       bottom: 31.5%;
       left: 0%;
-      right: 91%;
+      right: 86%;
   }
   .r {
     height: 5.66vw;
@@ -959,20 +1086,20 @@ bottom: 30.5%;
       right: 46%;
   }
   .s {
-    top: 61%;
+    top: 59%;
       bottom: 31.5%;
       left: 48%;
       right: 46%;
   }
   .t {
     height: 5.66vw;
-  bottom: 38.8%;
+  bottom: 40.8%;
   left: 48%;
   right: 0%;
   }
   .u {
-    top: 61%;
-      left: 90.9%;
+    top: 59%;
+      left: 85.9%;
       bottom: 25.6%;
       right: 0%;
   }
@@ -1007,7 +1134,7 @@ bottom: 30.5%;
       left: 48.4%;
   }
   .info3 {
-      top: 86.5%;
+    top: 87.5%;
   }
   .ruler3 {
       width: 52vw;
@@ -1157,14 +1284,84 @@ bottom: 30.5%;
     width: 8.8vw;
     right: 5.3%;
   }
-  .sdohlacont3 {
-      top: 14%;
-      width: 33.9vw;
-      height: 43.125vw;
-      right: 7%;
-    }
 }
 @media only screen and (min-width: 320px) and (max-width: 490px) and (orientation: portrait) {
+  .icont1 {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    top: 32.2%;
+    width: 26vw;
+    height: 28.9vw;
+    right: 13%;
+    transform: rotate(90deg);
+    background: url(../images/brizg.svg) no-repeat 0 0%;
+    background-size: cover;
+    animation: dhh 0.5s steps(3) alternate infinite;
+  }
+  .brizgcont2 {
+    top: 11.2%;
+    width: 27vw;
+    height: 28.9vw;
+    right: 60%;
+    transform: rotate(-90deg);
+  }
+  .icont2 {
+    position: absolute;
+    top: 89%;
+    width: 18.2vw;
+    height: 23.9vw;
+    overflow: hidden;
+    left: 56%;
+    background: url(../images/little.svg) no-repeat 0 0%;
+    background-size: cover;
+    animation: pew 0.6s steps(3) alternate infinite;
+}
+  .littlecont4 {
+    top: 91.5%;
+    width: 31.2vw;
+    height: 37.9vw;
+    left: 58%;
+    transform: rotate(180deg);
+  }
+  .littlecont5 {
+    width: 32.2vw;
+    height: 39.9vw;
+  }
+  .littlecont3 {
+    top: 71.7%;
+    width: 23.2vw;
+    height: 31.9vw;
+    left: 61%;
+  }
+  .sdohlacontparent {
+    top: 43.7%;
+    width: 30.9%;
+    height: 38vw;
+    left: 12%;;
+}
+.sdohlacont2 {
+  top: 49.5%;
+width: 27.9vw;
+height: 37.125vw;
+overflow: hidden;
+right: 43%;
+  }
+  .brizgcont {
+    top: 18%;
+    width: 26vw;
+    height: 28.9vw;
+    right: 22%;
+    transform: rotate(-90deg);
+  }
+  .littlecont2 {
+    position: absolute;
+    top: 27%;
+    width: 24.2vw;
+    height: 29.9vw;
+    overflow: hidden;
+    left: 36%;
+  }
 .bleach {
   top: 2.5%;
   left: 12%;
@@ -1363,7 +1560,7 @@ height: 29.92vw;
   position: relative;
   height: 421px;
   display: inline-block;
-  width: 110.5px;
+  width: 110.4px;
   overflow: hidden;
   margin-left: -25px;
   background-image: url("../images/jojo.svg");
@@ -1562,9 +1759,6 @@ height: 5.66vw;
     width: 56vw;
     margin-bottom: 1%;
   }
-.sprite32 {
-    margin-bottom: -6%;
-}
 .twoseven p {
 font-size: 5vw;
 margin-left: 6px;
@@ -1715,7 +1909,7 @@ right: 0%;
     left: 48.4%;
 }
 .info3 {
-    top: 86.5%;
+    top: 86%;
 }
 .ruler3 {
     width: 52vw;
@@ -1723,7 +1917,6 @@ right: 0%;
 }
 .sprite12 {
     margin-left: 9%;
-    margin-bottom: -8%;
 }
 .eightone {
     width: 31.75vw;
@@ -1866,9 +2059,10 @@ height: auto;
   right: 5.3%;
 }
 .sdohlacont3 {
-    top: 14%;
+    top: 11%;
     width: 33.9vw;
     height: 43.125vw;
     right: 7%;
+    transform: rotate(180deg);
   }
 }

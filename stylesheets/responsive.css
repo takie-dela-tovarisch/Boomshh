@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1680px) and (max-width: 1930px) {
+@media only screen and (min-width: 1680px) {
   .contain19 {
     display: flex;
   }
@@ -382,6 +382,7 @@ right: 45.3%;
 }
 .e {
   bottom: 73%;
+  top: 18.9%;
 }
 .f {
   bottom: 73%;
@@ -475,7 +476,7 @@ bottom: 30.5%;
     height: 55.41vw;
   }
   .begin {
-    background: url("images/upphone.svg") no-repeat;
+    background: url("../images/upphone.svg") no-repeat;
     background-size: contain;
     left: calc(50% - 10.94vw);
     top: 1%;
@@ -582,7 +583,7 @@ bottom: 30.5%;
   .phbowl {
     display: block;
     position: relative;
-    background: url("images/fifi.svg") no-repeat;
+    background: url("../images/fifi.svg") no-repeat;
     background-size: 120% auto;
     background-position: center;
     width: 100vw;
@@ -651,7 +652,7 @@ bottom: 30.5%;
     position: relative;
     width: 30px;
     display: inline-block;
-    background-image: url("images/jojo.svg");
+    background-image: url("../images/jojo.svg");
     background-position: top 0px right 0px;
     animation: bladee 2s steps(1) infinite;
   }
@@ -660,7 +661,7 @@ bottom: 30.5%;
     display: inline-block;
     width: 110.5px;
     overflow: hidden;
-    background-image: url("images/jojo.svg");
+    background-image: url("../images/jojo.svg");
     background-position: top 0px right 0px;
   animation: bladee 2s steps(1) infinite;
   }
@@ -668,7 +669,7 @@ bottom: 30.5%;
     position: relative;
     display: inline-block;
     width: 110.5px;
-    background-image: url("images/jojo.svg");
+    background-image: url("../images/jojo.svg");
     background-position: top 0px right 0px;
     animation: bladee 2s steps(1) infinite;
   }
@@ -677,7 +678,7 @@ bottom: 30.5%;
     position: relative;
     width: 30px;
     display: inline-block;
-    background-image: url("images/jojo.svg");
+    background-image: url("../images/jojo.svg");
     background-position: top 0px right 30px;
     animation: bladeetwo 2s steps(1) infinite;
   }
@@ -1040,11 +1041,11 @@ bottom: 30.5%;
   }
   .icandyline {
     position: absolute;
-  background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-  background-position: 0 0;
+    background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,205,0,1) 13%, rgba(255,0,184,1) 50%, rgba(255,205,0,1) 87%, rgba(255,205,0,1) 100%);
+    background-position: 0 50%;
+    animation: candylineanimate 4s infinite;
+    background-size: 100% 422%;
   z-index: 200;
-  animation: ba 2.5s infinite;
-  background-size: 100% 100%;
   top: 66%;
   bottom: 1%;
   left:  48.5%;
@@ -1057,6 +1058,16 @@ bottom: 30.5%;
   .phbowl:hover .icandyline {
     opacity: 0.3;
   }
+  .icandy1 {
+    position: absolute;
+    background-image: url("../images/candy.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+      width: 100%;
+      height: 16vw;
+    top: -40%;
+    animation: candybig 1s linear infinite;
+  }
   .icandy2 {
     position: absolute;
     top: -40%;
@@ -1067,6 +1078,18 @@ bottom: 30.5%;
   .icandy2 img {
   width: 100%;
   height: auto;
+  }
+  .icandy3 {
+    position: absolute;
+    background-image: url("../images/candy.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 16vw;
+    top: -40%;
+    left: 0%;
+    animation: candybig 1.8s linear infinite;
+    animation-delay: 0.3s;
   }
   .icandy4 {
     position: absolute;
@@ -1229,7 +1252,7 @@ bottom: 30.5%;
 }
 .kitchen p {
   font-size: 10vw;
-  margin-top: -10px;
+  margin-top: 3vw;
   margin-left: 10px;
 }
 .kitchenline {
@@ -1726,11 +1749,11 @@ right: 46.07%;
 }
 .icandyline {
   position: absolute;
-background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,0,184,1) 52%, rgba(255,205,0,1) 94%);
-background-position: 0 0;
+  background: linear-gradient(180deg, rgba(255,205,0,1) 0%, rgba(255,205,0,1) 13%, rgba(255,0,184,1) 50%, rgba(255,205,0,1) 87%, rgba(255,205,0,1) 100%);
+  background-position: 0 50%;
+  animation: candylineanimate 4s infinite;
+  background-size: 100% 422%;
 z-index: 200;
-animation: ba 2.5s infinite;
-background-size: 100% 100%;
 top: 66%;
 bottom: 1%;
 left:  48.5%;
@@ -1743,6 +1766,16 @@ opacity: 1;
 .phbowl:hover .icandyline {
   opacity: 0.3;
 }
+.icandy1 {
+  position: absolute;
+  background-image: url("../images/candy.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    width: 100%;
+    height: 16vw;
+  top: -40%;
+  animation: candybig 1s linear infinite;
+}
 .icandy2 {
   position: absolute;
   top: -40%;
@@ -1753,6 +1786,18 @@ opacity: 1;
 .icandy2 img {
 width: 100%;
 height: auto;
+}
+.icandy3 {
+  position: absolute;
+  background-image: url("../images/candy.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 16vw;
+  top: -40%;
+  left: 0%;
+  animation: candybig 1.8s linear infinite;
+  animation-delay: 0.3s;
 }
 .icandy4 {
   position: absolute;

@@ -278,7 +278,7 @@ background-position: 0 0;
 z-index: 200;
 animation: ba 10s infinite;
 background-size: 100% 100%;
-top: 16.46%;
+top: 16.45%;
 left: 17.5%;
 right: 77.97%;
 bottom: 80.1%;
@@ -413,8 +413,8 @@ animation-delay: 2s;
     font-weight: 900;
     font-size: 6vw;
     color: #FFCD00;
-    margin-left: 24px;
-    padding-top: 20px;
+    margin-left: 1.88vw;
+    padding-top: 1.56vw;
     margin-bottom: 0px;
    }
    .kitchen p {
@@ -423,9 +423,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 6vw;
 color: #FFCD00;
-line-height: 65px;
-margin-left: 24px;
-margin-top: 10px;
+line-height: 5.08vw;
+margin-left: 1.88vw;
+margin-top: 0.78vw;
    }
 
    .candyline {
@@ -459,17 +459,32 @@ margin-top: 10px;
    }
    .candy1 {
      position: absolute;
+     background-image: url("../images/candy.svg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     width: 2.19vw;
+     height: 6.2vw;
      top: -40%;
      animation: candybig 1s linear infinite;
    }
    .candy4 {
      position: absolute;
+     background-image: url("../images/candy.svg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     width: 2.19vw;
+     height: 6.2vw;
      top: -40%;
      left: 54%;
      animation: candybig 1.2s linear infinite;
    }
    .candy2 {
      position: absolute;
+     background-image: url("../images/candy.svg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     width: 2.19vw;
+     height: 6.2vw;
      top: -40%;
      left: 54%;
      animation: candybig 1.5s linear infinite;
@@ -477,6 +492,11 @@ margin-top: 10px;
    }
    .candy3 {
      position: absolute;
+     background-image: url("../images/candy.svg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     width: 2.19vw;
+     height: 6.2vw;
      top: -40%;
      left: 0%;
      animation: candybig 1.8s linear infinite;
@@ -592,8 +612,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 6vw;
 color: #FFCD00;
-line-height: 65px;
-margin-top: 10px;
+line-height: 5.08vw;
+margin-top: 1.64vw;
 }
 
 * {
@@ -601,12 +621,12 @@ margin-top: 10px;
 }
 .begin {
   position: absolute;
-left: calc(50% - 155px);
+left: calc(50% - 12.11vw);
 top: 42px;
 background: url("../images/upup.svg") no-repeat;
 background-size: contain;
-width: 310px;
-height: 300px;
+width: 24.22vw;
+height: 10.39vw;
 }
 .sort {
   position: relative;
@@ -631,9 +651,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 6vw;
 color: #FFCD00;
-line-height: 74px;
+line-height: 5.78vw;
 margin-left: 11.5%;
-margin-top: 76px;
+margin-top: 5.94vw;
 }
 .line1 {
   position: absolute;
@@ -768,7 +788,7 @@ margin-top: 76px;
   position: absolute;
   left: 55%;
   background-color: #866AE1;
-  top: 99px;
+  top: 7.4vw;
   height: 3.1vw;
   right: 11.5%;
   overflow: hidden;
@@ -779,7 +799,7 @@ margin-top: 76px;
   background-color: #866AE1;
   right: 11.5%;
   height: 3.1vw;
-  top: 172px;
+  top: 13.3vw;
   overflow: hidden;
 }
 .endgame {
@@ -937,7 +957,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 6vw;
 color: #FFCD00;
-line-height: 65px;
+line-height: 5.08vw;
 width: 44vw;
-margin-top: 10px;
+margin-top: 0.86vw;
 }

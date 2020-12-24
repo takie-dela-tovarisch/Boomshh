@@ -1,10 +1,46 @@
 @media only screen and (min-width: 1680px) and (max-width: 1930px) {
+  .contain19 {
+    display: flex;
+  }
+  .contain {
+    display: none;
+  }
+  .q {
+    right: 94.08%;
+  }
+  .u {left: 94%;}
   .deskbowltext {
       top: 34.1%;
   }
   .sprite3 {
     top: 31%;
   }
+  .candyline {
+    top: 66%;
+bottom: 1.8%;
+left: 48.6%;
+right: 45.3%;
+  }
+  .candy {
+    position: absolute;
+    top: 66%;
+    bottom: 1.8%;
+    left: 48.6%;
+    right: 45.3%;
+  }
+  .kitchenline2 {
+    top: 16.42%;
+  }
+  .i {
+    bottom: 64.2%;
+  }
+  .j {
+    bottom: 64.2%;
+  }
+  .k {
+    top: 35%;
+  }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 823px) {

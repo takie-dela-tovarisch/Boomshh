@@ -17,7 +17,7 @@
     width: 61vw;
     background-color: rgba(135, 104, 225, 1);
     display: inline-block;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 .twoseven {
   position: relative;
@@ -29,8 +29,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 3vw;
 color: rgba(135, 104, 225, 1);
-line-height: 65px;
-margin-left: 24px;
+line-height: 5.08vw;
+margin-left: 1.88vw;
 }
 .sprite32 {
   margin-left: 77%;
@@ -55,7 +55,7 @@ margin-left: 24px;
     width: 69vw;
     background-color: rgba(135, 104, 225, 1);
     display: inline-block;
-    margin-bottom: 1%;
+    margin-bottom: 0.8%;
 }
 .fivefour {
   position: relative;
@@ -67,8 +67,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 3vw;
 color: rgba(135, 104, 225, 1);
-line-height: 65px;
-margin-left: 24px;
+line-height: 5.08vw;
+margin-left: 1.88vw;
 }
 .sprite42 {
   margin-left: 80%;
@@ -94,7 +94,7 @@ margin-left: 24px;
     width: 67vw;
     background-color: rgba(135, 104, 225, 1);
     display: inline-block;
-    margin-bottom: 0.5%;
+    margin-bottom: 0.8%;
 }
 .eightone {
   display: inline-block;
@@ -107,8 +107,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 3vw;
 color: rgba(135, 104, 225, 1);
-line-height: 65px;
-margin-top: 10px;
+line-height: 5.08vw;
+margin-top: 0.78vw;
 }
 .sprite12 {
   margin-left: 0%;
@@ -209,7 +209,7 @@ margin-top: 11%;
 
 .sprite {
   position: absolute;
-  top: 80%;
+  top: 79.8%;
   width: 22.58vw;
   height: 19.92vw;
   left: 14%;
@@ -311,8 +311,8 @@ opacity: 1;
   animation: banana 2s linear infinite;
 }
 .banana img {
-width: 94.48px;
-height: 71.99px;
+  width: 6.38vw;
+  height: 4.62vw;
 }
 .banana2 {
   position: absolute;
@@ -321,8 +321,8 @@ height: 71.99px;
   animation: banana2 3s linear infinite;
 }
 .banana2 img {
-width: 100.21px;
-height: 57.41px;
+width: 7.83vw;
+height: 4.49vw;
 }
 .banana3 {
   position: absolute;
@@ -332,8 +332,8 @@ height: 57.41px;
   animation-delay: 1.5s;
 }
 .banana3 img {
-width: 100.21px;
-height: 57.41px;
+width: 7.83vw;
+height: 4.49vw;
 }
 .lemon {
 position: absolute;
@@ -343,8 +343,8 @@ animation: lemon 3s linear infinite;
 animation-delay: 0.3s;
 }
 .lemon img {
-  width: 57.97px;
-  height: 45.38px;
+  width: 4.53vw;
+  height: 3.55vw;
 }
 .lemon2 {
 position: absolute;
@@ -354,8 +354,8 @@ animation: lemon2 3s linear infinite;
 animation-delay: 2s;
 }
 .lemon2 img {
-  width: 37.87px;
-  height: 40.66px;
+  width: 2.96vw;
+  height: 3.18vw;
 }
 .lemon3 {
 position: absolute;
@@ -365,8 +365,8 @@ animation: lemon 3s linear infinite;
 animation-delay: 2s;
 }
 .lemon3 img {
-  width: 57.97px;
-  height: 45.38px;
+  width: 4.53vw;
+  height: 3.55vw;
 }
 @keyframes lemon {
 0% {left: 100%; top: 47%; transform: rotate(0deg);
@@ -510,7 +510,82 @@ margin-top: 0.78vw;
      top: 100%;
    }
    }
-
+.contain19 {
+  display: none;
+  justify-content: space-between;
+  margin-top: 98%;
+  opacity: 0.3;
+}
+.contain19:hover {
+  opacity: 1;
+}
+.bladestwo19 {margin-top: 300px}
+.blade-right19 {
+  position: relative;
+  height: 1044px;
+  width: 45px;
+  display: inline-block;
+  background-image: url("../images/last.svg");
+  background-position: top 0px right 0px;
+  animation: bladee19 2s steps(1) infinite;
+}
+.blade-leftt19 {
+position: relative;
+height: 1044px;
+display: inline-block;
+width: 165.75px;
+overflow: hidden;
+margin-left: 0px;
+background-image: url("../images/last.svg");
+background-position: top 0px right 0px;
+animation: bladee19 2s steps(1) infinite;
+}
+@keyframes bladee19 {
+0% {background-position: right 0px top 0px;}
+10% {background-position: right 0px top -101.25px;}
+20% {background-position: right 0px top -207px;}
+30% {background-position: right 0px top -309px;}
+40% {background-position: right 0px top -418.5px;}
+50% {background-position: right 0px top -520.5px;}
+60% {background-position: right 0px top -631.5px;}
+70% {background-position: right 0px top -729px;}
+80% {background-position: right 0px top -835.5px;}
+90% {background-position: right 0px top -939px;}
+100% {background-position: right 0px top -1045.5px;}
+}
+.bladee-right19 {
+position: relative;
+height: 1044px;
+width: 45px;
+display: inline-block;
+background-image: url("../images/last.svg");
+background-position: top 0px right 45px;
+animation: bladeetwo19 2s steps(1) infinite;
+}
+@keyframes bladeetwo19 {
+0% {background-position: right 45px top 0px;}
+10% {background-position: right 45px top -101.25px;}
+20% {background-position: right 45px top -207px;}
+30% {background-position: right 45px top -309px;}
+40% {background-position: right 45px top -418.5px;}
+50% {background-position: right 45px top -520.5px;}
+60% {background-position: right 45px top -631.5px;}
+70% {background-position: right 45px top -729px;}
+80% {background-position: right 45px top -835.5px;}
+90% {background-position: right 45px top -939px;}
+100% {background-position: right 45px top -1045.5px;}
+}
+.bladee-leftt19 {
+position: relative;
+height: 1044px;
+display: inline-block;
+width: 165.75px;
+overflow: hidden;
+margin-left: 0px;
+background-image: url("../images/last.svg");
+background-position: top 0px right 0px;
+animation: bladee19 2s steps(1) infinite;
+}
 .contain {
   display: flex;
   justify-content: space-between;
@@ -534,6 +609,7 @@ margin-top: 0.78vw;
   background-position: top 0px right 0px;
   animation: bladee 2s steps(1) infinite;
 }
+
 .blade-leftt {
   position: relative;
   height: 696px;
@@ -558,6 +634,7 @@ animation: bladee 2s steps(1) infinite;
   90% {background-position: right 0px top -626px;}
   100% {background-position: right 0px top -697px;}
 }
+
 .bladee-leftt {
   position: relative;
   height: 696px;

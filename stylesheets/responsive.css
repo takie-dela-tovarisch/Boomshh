@@ -314,7 +314,7 @@ right: 45.3%;
   top: 42px;
 }
 .main {
-  padding-top: 66%;
+  padding-top: 20%;
 }
 .kitchen {
   top: 18%;
@@ -591,7 +591,7 @@ right: 12%;
     transform: rotate(180deg);
   }
   .bleach {
-    top: 0.7%;
+    top: 1.7%;
     left: 12%;
     width: 74.4vw;
     height: 66.41vw;
@@ -699,7 +699,7 @@ right: 12%;
   .phonemain {
   display: block;
   position: relative;
-  padding-top: 72%;
+  padding-top: 45%;
   }
   .phonemain img {
     width: 100%;
